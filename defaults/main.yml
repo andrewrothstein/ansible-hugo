@@ -1,0 +1,29 @@
+---
+# defaults file for hugo
+hugo_ver: '0.55.6'
+hugo_platform: Linux-64bit
+hugo_mirror: https://github.com/gohugoio/hugo/releases/download
+
+hugo_checksums:
+  # https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_checksums.txt
+  '0.55.6':
+    macOS-32bit: sha256:205a1054df4c77a57e55fe44f15e3d9b14e35d4476b45f13e19d58ea8cf1e11c
+    Windows-32bit: sha256:a926fe97d07009dceb17176f22f69e829cca6bdc6aed41bfc762b0426961700b
+    Windows-64bit: sha256:e1b3c9aa3ab277e4510a057fa62944f4946f2be92d8dfa0072b8db0926350daf
+    FreeBSD-64bit: sha256:5fc9102a181810a6a600b9dfa3b8c229aaab4b83ef36639ae50092a044c0719c
+    OpenBSD-64bit: sha256:e49782f3fe4868313432e9a8336412be8d2649632644d49cd8dfc3f525adf779
+    NetBSD-64bit: sha256:a352db114c9fbc801f8649839cfd9579e4d0235624b5df7aac7ffa747e852187
+    macOS-64bit: sha256:0a65a33067efb1bc2821e5be5481a3d9664f4c0d34ea04e8fd5d16b283264960
+    Linux-64bit: sha256:39d3119cdb9ba5d6f1f1b43693e707937ce851791a2ea8d28003f49927c428f4
+    DragonFlyBSD-64bit: sha256:dded4a2cb73bdeb55fecd94a7c49641a289cb1aa7abe488b8f0cf6873fd6d10b
+    OpenBSD-32bit: sha256:0b5a3b53fd14c0e07c6a372bc24e33e622c862b1470b46abaf506f112e42f865
+    Linux-32bit: sha256:86f4678cb7ae09d565663a08e222ff2f92c01fb307c00f96824e6ea36ae6cde3
+    FreeBSD-32bit: sha256:135a6bd7df07828eb94e3675bd624bf1d91bc233594489437e83e8fa74bcc22e
+    NetBSD-32bit: sha256:170f90aa42b82af30380275185a3eb1a7971eb05252bed14b05fb7d46952cefc
+    Linux-ARM: sha256:290c8aca410093c5317cb6d805b6c076e5266bc04ec3d8fc944c9f03f72e60b9
+    Linux-ARM64: sha256:b8e51883ab98e5789a0a15a53318a63505b97d59fcd4f2e7f6dafe3be023f8d7
+    OpenBSD-ARM: sha256:abe19946ad2c72deaf171176f5e832c440e5c6ce46ed26e722e33711294be3fc
+    FreeBSD-ARM: sha256:04599ce410fd9c85ac2837a8a99df9806cc442570bec6959f5da16449583da74
+    NetBSD-ARM: sha256:2c1f3d661a3bad439bee66d4288694497cdbc286096400e4baf77fd528e203f8
+
+hugo_parent_install_dir: /usr/local

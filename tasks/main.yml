@@ -1,0 +1,58 @@
+---
+- name: resolve platform specific vars
+  include_vars: '{{ item }}'
+  with_first_found:
+    - files:
+        - '{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml'
+        - '{{ ansible_distribution }}.yml'
+        - '{{ ansible_os_family }}.yml'
+      skip: true
+      paths:
+        - '{{ role_path }}/vars'
+- name: check for install..
+  become: yes
+  stat:
+    path: '{{ hugo_install_dir }}'
+  changed_when: False
+  register: hugo_binary
+- when: not hugo_binary.stat.exists
+  block:
+    - name: download...
+      become: yes
+      become_user: root
+      get_url:
+        url: '{{ hugo_archive_url }}'
+        dest: /tmp/{{ hugo_archive }}
+        mode: 0644
+        checksum: '{{ hugo_checksum }}'
+    - name: make install dir
+      become: yes
+      become_user: root
+      file:
+        path: '{{ hugo_install_dir }}'
+        state: directory
+        mode: 0755
+    - name: unarchive
+      become: yes
+      become_user: root
+      unarchive:
+        remote_src: yes
+        src: /tmp/{{ hugo_archive }}
+        dest: '{{ hugo_install_dir }}'
+        creates: '{{ hugo_install_dir }}/hugo'
+  always:
+    - name: cleanup
+      become: yes
+      become_user: root
+      file:
+        path: /tmp/{{ hugo_archive }}
+        state: absent
+- name: link
+  become: yes
+  become_user: root
+  with_items:
+    - hugo
+  file:
+    src: '{{ hugo_install_dir }}/{{ item }}'
+    dest: '{{ hugo_parent_install_dir }}/bin/{{ item }}'
+    state: link
