@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=0.55.6
+VER=0.56.1
 DIR=~/Downloads
 MIRROR=https://github.com/gohugoio/hugo/releases/download/v${VER}
 CHECKSUMS=hugo_${VER}_checksums.txt
