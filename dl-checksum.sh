@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=0.56.1
+VER=0.56.3
 DIR=~/Downloads
 MIRROR=https://github.com/gohugoio/hugo/releases/download/v${VER}
 CHECKSUMS=hugo_${VER}_checksums.txt
@@ -7,16 +7,17 @@ CHECKSUMS=hugo_${VER}_checksums.txt
 dl()
 {
     OS=$1
-    PLATFORM=$2
+    ARCH=$2
     ARCHIVETYPE=$3
-    FILE=hugo_${VER}_${OS}-${PLATFORM}.$ARCHIVETYPE
+    PLATFORM=${OS}-${ARCH}
+    FILE=hugo_${VER}_${PLATFORM}.$ARCHIVETYPE
 
     if [ ! -e $DIR/$CHECKSUMS ];
     then
         wget -q -O $DIR/$CHECKSUMS $MIRROR/$CHECKSUMS
     fi
 
-    printf "    %s-%s: sha256:%s\n" $OS $PLATFORM `fgrep $FILE $DIR/$CHECKSUMS | awk '{print $1}'`
+    printf "    %s: sha256:%s\n" $PLATFORM `fgrep $FILE $DIR/$CHECKSUMS | awk '{print $1}'`
 }
 
 printf "  # %s\n" $MIRROR/$CHECKSUMS
