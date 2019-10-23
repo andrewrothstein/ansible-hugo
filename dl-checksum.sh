@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=0.58.3
+VER=${1:-0.59.0}
 DIR=~/Downloads
 MIRROR=https://github.com/gohugoio/hugo/releases/download/v${VER}
 CHECKSUMS=hugo_${VER}_checksums.txt

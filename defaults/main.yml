@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: '0.58.3'
+hugo_ver: '0.59.0'
 hugo_platform: Linux-64bit
 hugo_mirror: https://github.com/gohugoio/hugo/releases/download
 hugo_parent_install_dir: /usr/local
@@ -126,3 +126,23 @@ hugo_checksums:
     OpenBSD-ARM: sha256:ab2f364e5f1975df7041da1c9c496117b3d47a7d6a0f0d68e3400f53b0a9c025
     FreeBSD-ARM: sha256:120e27901720ba62b4f7467a3300d30699b9211dd38c5407f02fc3d3b7cdbd99
     NetBSD-ARM: sha256:4dfff37ab2823f9e822a6eb1db9bc5a4a557d904de6f56e6e8931566e061bfce
+  # https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_checksums.txt
+  '0.59.0':
+    macOS-32bit: sha256:46b93c1851e36d261cd9d94fb6aeb765290d616f9bffaf989f826848e27a5a90
+    Windows-32bit: sha256:16f1e0ca70ea7602aee504e792d1b8f3fb0a42c1517552704576fddd1d279a40
+    Windows-64bit: sha256:0494f925bcee8553674844bac6a2f69e3f4774b9e7a5c6261741a0c9eabffff3
+    FreeBSD-64bit: sha256:867deb807a0112999f0b466b73fd98aae2573888c72a9146eccf1b2922ea2ff9
+    OpenBSD-64bit: sha256:647e6a5c730b5c91c997d30f4dc8cc3b31220a8bc6c06b8874d420164afc3be4
+    NetBSD-64bit: sha256:838fe918a6e566f3b51726193e3cf2630cea87b79197db01657638750ea3e2a2
+    macOS-64bit: sha256:0f40d5e45ab7c12b83d8c80c356a5054de4fd41e832df418ad82ee209e132e23
+    Linux-64bit: sha256:4cce9411a29f1599119bbec0d253506cac753b559d5dd7ca7b3b6ce3a92c42ff
+    DragonFlyBSD-64bit: sha256:d95ee0c411caf472f81e58ea4e5dabe091efc9ec60ace4136d0370e6aeb2f52a
+    OpenBSD-32bit: sha256:ef84560827bd1a6a416ebe5beaa074da1612b62c0e0938e5e64b12147c8974be
+    Linux-32bit: sha256:69ef32b40a139a43d456ede1b558d541d9df1cbe89a52956d81d242b2343020e
+    FreeBSD-32bit: sha256:78dc9c459f689eab98affee09f1e3bc5b381fd6149df10e0f79f8cb30e17bfcc
+    NetBSD-32bit: sha256:c92f1b31061aff7f662d830367749b839b7d44fcb9a90583c83e1f667fee4bfe
+    Linux-ARM: sha256:a9691059ece7598caf470e0b2c8793c1d7050a948ed5f32bc4ce0971b57a6381
+    Linux-ARM64: sha256:255b1bcd11a1fa838361ba59d84e5f7948e4aa8851c46ae778163f04baf232b0
+    OpenBSD-ARM: sha256:2555964a274f46ffc45bb66413442944e5bd66d520fb97cf14ce2db7f41d80aa
+    FreeBSD-ARM: sha256:de882f158d21672037ad4f63a1d87ae738f8f075bce5afa0d28c28872365ec10
+    NetBSD-ARM: sha256:c407559c2b17a87c4d4e9a1cb2ddcd0e5c360c81e8ece4a736cea80353627ab3
