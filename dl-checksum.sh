@@ -51,4 +51,4 @@ dl_ver() {
     dl $ver $lchecksums NetBSD ARM tar.gz
 }
 
-dl_ver ${1:-0.68.3}
+dl_ver ${1:-0.69.0}
