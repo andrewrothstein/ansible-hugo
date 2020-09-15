@@ -30,8 +30,6 @@ dl_ver() {
     printf "  # %s\n" $rchecksums
     printf "  '%s':\n" $ver
 
-
-    dl $ver $lchecksums macOS 32bit tar.gz
     dl $ver $lchecksums Windows 32bit zip
     dl $ver $lchecksums Windows 64bit zip
     dl $ver $lchecksums FreeBSD 64bit tar.gz

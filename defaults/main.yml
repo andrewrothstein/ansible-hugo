@@ -966,8 +966,6 @@ hugo_checksums:
     NetBSD-ARM: sha256:0b2e7c781a08dc4273d6857dbad05f64754183ec8dcd1508cdf53a87d0aa62d9
   # https://github.com/gohugoio/hugo/releases/download/v0.75.0/hugo_0.75.0_checksums.txt
   '0.75.0':
-    # https://github.com/gohugoio/hugo/releases/download/v0.75.0/hugo_0.75.0_macOS-32bit.tar.gz
-    macOS-32bit: sha256:
     # https://github.com/gohugoio/hugo/releases/download/v0.75.0/hugo_0.75.0_Windows-32bit.zip
     Windows-32bit: sha256:5558e3f6ef90028339c1bf0b48d0710d0a4c11b637a91d260de624db0f5726e9
     # https://github.com/gohugoio/hugo/releases/download/v0.75.0/hugo_0.75.0_Windows-64bit.zip
