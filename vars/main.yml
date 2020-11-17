@@ -1,6 +1,9 @@
 ---
 # vars file for hugo
 hugo_archive: hugo_{{ hugo_ver }}_{{ hugo_platform }}.{{ hugo_archive_type | default("tar.gz") }}
+hugo_tmp_archive: /tmp/{{ hugo_archive }}
 hugo_archive_url: '{{ hugo_mirror }}/v{{ hugo_ver }}/{{ hugo_archive }}'
 hugo_install_dir: '{{ hugo_parent_install_dir }}/hugo_{{ hugo_ver }}'
 hugo_checksum: '{{ hugo_checksums[hugo_ver][hugo_platform] }}'
+hugo_install_exe: '{{ hugo_install_dir }}/hugo'
+hugo_link: '{{ hugo_parent_install_dir }}/bin/hugo'

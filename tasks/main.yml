@@ -9,7 +9,7 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: check for install..
+- name: check for install in {{ hugo_install_dir }}
   become: yes
   stat:
     path: '{{ hugo_install_dir }}'
@@ -17,42 +17,40 @@
   register: hugo_binary
 - when: not hugo_binary.stat.exists
   block:
-    - name: download...
+    - name: downloading {{ hugo_archive_url }}
       become: yes
       become_user: root
       get_url:
         url: '{{ hugo_archive_url }}'
-        dest: /tmp/{{ hugo_archive }}
+        dest: '{{ hugo_tmp_archive }}'
         mode: 0644
         checksum: '{{ hugo_checksum }}'
-    - name: make install dir
+    - name: mkdir {{ hugo_install_dir }}
       become: yes
       become_user: root
       file:
         path: '{{ hugo_install_dir }}'
         state: directory
         mode: 0755
-    - name: unarchive
+    - name: unarchive {{ hugo_tmp_archive }} to {{ hugo_install_dir }}
       become: yes
       become_user: root
       unarchive:
         remote_src: yes
-        src: /tmp/{{ hugo_archive }}
+        src: '{{ hugo_tmp_archive }}'
         dest: '{{ hugo_install_dir }}'
-        creates: '{{ hugo_install_dir }}/hugo'
+        creates: '{{ hugo_install_exe }}'
   always:
-    - name: cleanup
+    - name: rm {{ hugo_tmp_archive }}
       become: yes
       become_user: root
       file:
-        path: /tmp/{{ hugo_archive }}
+        path: '{{ hugo_tmp_archive }}'
         state: absent
-- name: link
+- name: link {{ hugo_link }} to {{ hugo_install_exe }}
   become: yes
   become_user: root
-  with_items:
-    - hugo
   file:
-    src: '{{ hugo_install_dir }}/{{ item }}'
-    dest: '{{ hugo_parent_install_dir }}/bin/{{ item }}'
+    src: '{{ hugo_install_exe }}'
+    dest: '{{ hugo_link }}'
     state: link
