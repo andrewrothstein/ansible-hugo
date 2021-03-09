@@ -17,6 +17,11 @@ galaxy_info:
   - name: Archlinux
     versions:
     - all
+  - name: Debian
+    versions:
+    - bullseye
+    - buster
+    - stretch
   - name: EL
     versions:
     - all
@@ -29,8 +34,4 @@ galaxy_info:
     - bionic
     - focal
     - xenial
-  - name: Debian
-    versions:
-    - buster
-    - stretch
   role_name: hugo
