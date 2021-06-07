@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 DIR=~/Downloads
 MIRROR=https://github.com/gohugoio/hugo/releases/download
 APP=hugo
@@ -49,4 +50,4 @@ dl_ver() {
     dl $ver $lchecksums NetBSD ARM tar.gz
 }
 
-dl_ver ${1:-0.82.1}
+dl_ver ${1:-0.83.1}
