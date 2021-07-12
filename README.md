@@ -1,6 +1,6 @@
 andrewrothstein.hugo
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-hugo.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-hugo)
+![Build Status](https://github.com/andrewrothstein/ansible-hugo/actions/workflows/build.yml/badge.svg)
 
 Installs [Hugo](https://gohugo.io/)
 
