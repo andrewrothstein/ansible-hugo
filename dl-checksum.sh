@@ -39,15 +39,9 @@ dl_ver() {
     dl $ver $lchecksums macOS 64bit tar.gz
     dl $ver $lchecksums Linux 64bit tar.gz
     dl $ver $lchecksums DragonFlyBSD 64bit tar.gz
-    dl $ver $lchecksums OpenBSD 32bit tar.gz
     dl $ver $lchecksums Linux 32bit tar.gz
-    dl $ver $lchecksums FreeBSD 32bit tar.gz
-    dl $ver $lchecksums NetBSD 32bit tar.gz
     dl $ver $lchecksums Linux ARM tar.gz
     dl $ver $lchecksums Linux ARM64 tar.gz
-    dl $ver $lchecksums OpenBSD ARM tar.gz
-    dl $ver $lchecksums FreeBSD ARM tar.gz
-    dl $ver $lchecksums NetBSD ARM tar.gz
 }
 
-dl_ver ${1:-0.88.0}
+dl_ver ${1:-0.90.1}
