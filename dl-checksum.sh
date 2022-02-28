@@ -16,7 +16,7 @@ dl()
     local url=$MIRROR/v$ver/$file
 
     printf "    # %s\n" $url
-    printf "    %s: sha256:%s\n" $platform `fgrep $file $lchecksums | awk '{print $1}'`
+    printf "    %s: sha256:%s\n" $platform $(grep $file $lchecksums | awk '{print $1}')
 }
 
 dl_ver() {
@@ -26,7 +26,7 @@ dl_ver() {
     local rchecksums=$MIRROR/v$ver/$checksums
     if [ ! -e $lchecksums ];
     then
-        wget -q -O $lchecksums $rchecksums
+        curl -sSLf -o $lchecksums $rchecksums
     fi
     printf "  # %s\n" $rchecksums
     printf "  '%s':\n" $ver
@@ -44,4 +44,4 @@ dl_ver() {
     dl $ver $lchecksums Linux ARM64 tar.gz
 }
 
-dl_ver ${1:-0.92.2}
+dl_ver ${1:-0.93.0}
