@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.93.0
+hugo_ver: 0.93.2
 hugo_platform: Linux-64bit
 hugo_mirror: https://github.com/gohugoio/hugo/releases/download
 hugo_parent_install_dir: /usr/local
@@ -1780,3 +1780,27 @@ hugo_checksums:
     Linux-ARM: sha256:10a5c4ee045366bef9d9b510219e82842358e0108edf3ffaeb8a3be4001ae0d2
     # https://github.com/gohugoio/hugo/releases/download/v0.93.0/hugo_0.93.0_Linux-ARM64.tar.gz
     Linux-ARM64: sha256:aa97ea7c4db7bdf6cc15f4d78311ebd78de936de27daab69851c7d4df3021bbd
+  # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_checksums.txt
+  '0.93.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Windows-32bit.zip
+    Windows-32bit: sha256:f553d4f5a374c72adfac8658025a794b72ad8907117366d97427df5c396bd964
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Windows-64bit.zip
+    Windows-64bit: sha256:31e407cb4bdf6636099c8bd5eeb88020bf84ad3db3b3646f1a97bb41e783b272
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_FreeBSD-64bit.tar.gz
+    FreeBSD-64bit: sha256:92f829c4d349a4cfe644c319e023a15948daec0d64c9c9cd691f7a350be39eb6
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_OpenBSD-64bit.tar.gz
+    OpenBSD-64bit: sha256:937fe66e287121b0dc2554d496c31e3067d036a4d9178ce4d3fdc82acdb42b1d
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_NetBSD-64bit.tar.gz
+    NetBSD-64bit: sha256:f4a1a271c74ad8e944df937c2e0d3ea7e70e2e4fa55691cbbe338771530f7ce5
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_macOS-64bit.tar.gz
+    macOS-64bit: sha256:bad2b82e8c632ce7bde2acf02e8cae4e528a2cb2fa2787a437c874de44568f3d
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Linux-64bit.tar.gz
+    Linux-64bit: sha256:684f868379f4f835385442d8fbeac0dade889b876d01d541fb621f8dcf5052c7
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_DragonFlyBSD-64bit.tar.gz
+    DragonFlyBSD-64bit: sha256:feefd54520423b31e314a974616307af7185998756a1fd0be831187eb55d4f20
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Linux-32bit.tar.gz
+    Linux-32bit: sha256:c18afa9c408cdbcf249c00228d0fe850804f897e336ae4151c2cc91f9b069381
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Linux-ARM.tar.gz
+    Linux-ARM: sha256:4434668bed1c60a2fcf3507e52d032c167596848407fb6e9e31d02ad913f13b5
+    # https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_Linux-ARM64.tar.gz
+    Linux-ARM64: sha256:5239e148689e9682c6d3345566cad3c348123674b82db563917e4857cff37eac
