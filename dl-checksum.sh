@@ -44,4 +44,4 @@ dl_ver() {
     dl $ver $lchecksums Linux ARM64 tar.gz
 }
 
-dl_ver ${1:-0.95.0}
+dl_ver ${1:-0.96.0}
