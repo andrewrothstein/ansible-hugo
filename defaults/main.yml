@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.101.0
+hugo_ver: 0.102.3
 hugo_platform: Linux-64bit
 hugo_mirror: https://github.com/gohugoio/hugo/releases/download
 hugo_parent_install_dir: /usr/local
@@ -1996,3 +1996,23 @@ hugo_checksums:
     Linux-ARM: sha256:86a0b8b71d41d0a7ec7cac6690c0be39799192899d3e477970f1f9a233746080
     # https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_0.101.0_Linux-ARM64.tar.gz
     Linux-ARM64: sha256:02787420d516c9db2040cbc2926586cd9198c2e4dde15731196ccc2d9796df92
+  # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_checksums.txt
+  '0.102.3':
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_Windows-64bit.zip
+    Windows-64bit: sha256:56129e064ce95442b74424a169a554d20b67feed612d7f35b45957f3e04b64a2
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_FreeBSD-64bit.tar.gz
+    FreeBSD-64bit: sha256:cc1a16215c36e4d0f2701396587e2adb2e58752e3fe5d2c0a1dcb630d061c085
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_OpenBSD-64bit.tar.gz
+    OpenBSD-64bit: sha256:8727d7349c3c9b46bea64413a4ca872cd4a2a50cc7516e21e742f6c69c202b81
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_NetBSD-64bit.tar.gz
+    NetBSD-64bit: sha256:754121a31631e850964270736646a00d11bb671e5f1e691d76698a641ed2bd11
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_macOS-universal.tar.gz
+    macOS-universal: sha256:47fdfc9e89753bdf43980f5eb27dc02d3f29e3919b83287f865bfe3033e10bcb
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_Linux-64bit.tar.gz
+    Linux-64bit: sha256:2c1a88bbfe384150aa2785d26a338ac16a66ea53c61535c0a2402d139a16acfc
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_DragonFlyBSD-64bit.tar.gz
+    DragonFlyBSD-64bit: sha256:2d8574aadc263c783bfbb8a6f1613fdf59a454364a58ce1ad326697fe3122017
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_Linux-ARM.tar.gz
+    Linux-ARM: sha256:d06f1c55d1bea48a55ba19d47519a7a55eb2b06c8178da530bbb46034f4bb162
+    # https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_Linux-ARM64.tar.gz
+    Linux-ARM64: sha256:377f420f995f00f5af689a18177c7f643240c009b37fbc80074a17d2a8ef0e88

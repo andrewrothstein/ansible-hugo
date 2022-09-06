@@ -31,17 +31,15 @@ dl_ver() {
     printf "  # %s\n" $rchecksums
     printf "  '%s':\n" $ver
 
-    dl $ver $lchecksums Windows 32bit zip
     dl $ver $lchecksums Windows 64bit zip
     dl $ver $lchecksums FreeBSD 64bit tar.gz
     dl $ver $lchecksums OpenBSD 64bit tar.gz
     dl $ver $lchecksums NetBSD 64bit tar.gz
-    dl $ver $lchecksums macOS 64bit tar.gz
+    dl $ver $lchecksums macOS universal tar.gz
     dl $ver $lchecksums Linux 64bit tar.gz
     dl $ver $lchecksums DragonFlyBSD 64bit tar.gz
-    dl $ver $lchecksums Linux 32bit tar.gz
     dl $ver $lchecksums Linux ARM tar.gz
     dl $ver $lchecksums Linux ARM64 tar.gz
 }
 
-dl_ver ${1:-0.101.0}
+dl_ver ${1:-0.102.3}
