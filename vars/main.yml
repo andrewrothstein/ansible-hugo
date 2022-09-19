@@ -1,5 +1,8 @@
 ---
 # vars file for hugo
+hugo_os: '{{ ansible_system | lower }}'
+hugo_arch: '{% if hugo_os == "darwin" %}universal{% else %}{{ hugo_arch_map[ansible_architecture] }}{% endif %}'
+hugo_platform: '{{ hugo_os }}-{{ hugo_arch }}'
 hugo_archive: hugo_{{ hugo_ver }}_{{ hugo_platform }}.{{ hugo_archive_type | default("tar.gz") }}
 hugo_tmp_archive: /tmp/{{ hugo_archive }}
 hugo_archive_url: '{{ hugo_mirror }}/v{{ hugo_ver }}/{{ hugo_archive }}'
