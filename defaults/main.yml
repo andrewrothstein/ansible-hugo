@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.103.1
+hugo_ver: 0.104.1
 
 hugo_arch_map:
   armv6l: arm
@@ -30,3 +30,21 @@ hugo_checksums:
     linux-arm: sha256:7605c7b3c4e4049c15d26339afb09e5cff0129965b955349847300b271d5831f
     # https://github.com/gohugoio/hugo/releases/download/v0.103.1/hugo_0.103.1_linux-arm64.tar.gz
     linux-arm64: sha256:c5c88eb8fbed5f938ac1a3283652a2fcb605e44de26f5f7d79760c453992d279
+  # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_checksums.txt
+  '0.104.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_windows-amd64.zip
+    windows-amd64: sha256:c1b6b5c70c2fbf3f57521065c31d5c2265b7b9558d6fc26b43d2b357a6608fc4
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:af5f07be6b0fb597d20a7a198e5239dd096784aa5723f4eeb9713c589654e7af
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:cd71539498ae90b19ca95d9bce83fe1d9baae77d3e99dbff9b57135269b452cb
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:a8fc7f4697351d388934f33d3b5b69dc523a9698ec858c4717973012131bc85f
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_darwin-universal.tar.gz
+    darwin-universal: sha256:40beddb54222aca915c7ce4249487c9accf9c26e78ac4540822f0b26325b2c5c
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_linux-amd64.tar.gz
+    linux-amd64: sha256:048a3d16c0b19d3edb49f289ce8ce82f58c52dfa9afce7ec1cc5112f0f344df4
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_linux-arm.tar.gz
+    linux-arm: sha256:26a21a9d5daabc8ad0ad676fdabd2ab03237953fa7ca1d96929e6473a3b6b978
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_linux-arm64.tar.gz
+    linux-arm64: sha256:3e88230572b75b0a640f81452daa6dc5cbfc89af115226c48ac444075d942477
