@@ -1,11 +1,12 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.104.1
+hugo_ver: 0.104.2
 
 hugo_arch_map:
   armv6l: arm
   armv7l: arm
   aarch64: arm64
+  arm64: arm64
   x86_64: amd64
 
 hugo_mirror: https://github.com/gohugoio/hugo/releases/download
@@ -48,3 +49,21 @@ hugo_checksums:
     linux-arm: sha256:26a21a9d5daabc8ad0ad676fdabd2ab03237953fa7ca1d96929e6473a3b6b978
     # https://github.com/gohugoio/hugo/releases/download/v0.104.1/hugo_0.104.1_linux-arm64.tar.gz
     linux-arm64: sha256:3e88230572b75b0a640f81452daa6dc5cbfc89af115226c48ac444075d942477
+  # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_checksums.txt
+  '0.104.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_windows-amd64.zip
+    windows-amd64: sha256:534a3aa04d2a91d247aba65d0710860cfa8e855f9e73c065b08656512f684273
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:f3dd53a232d705cb6391eb35655a07e5a5acef9c2f37de1ef50c54024f849d31
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:17c7fffa3523e48ae108d3637d6b20b56d6445bc0d7a551f7bac0aac065f2399
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:4aec0a1b08eaf12b5b1478f02b2c1bf9c1700552cba3699a8ff2b1db9cb37279
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_darwin-universal.tar.gz
+    darwin-universal: sha256:2a4ed8b5c2b590d9f7891af5f4cea9d01d6b0ee7d6e1a3c752a9dbe67541c23b
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_linux-amd64.tar.gz
+    linux-amd64: sha256:97b7a1f686da53bff4fceeaab02e163ed65020c38b39473d03e5c1fe079bb067
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_linux-arm.tar.gz
+    linux-arm: sha256:de2dec3e44e1983711793fba00ae1c1c59894fa8134644fd27fdc0ea48d79e5a
+    # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_linux-arm64.tar.gz
+    linux-arm64: sha256:630334d0ba096e6a07eb25a3cbaf5658175ae4e6c1f56959cebe303ae63ff212
