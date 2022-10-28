@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.104.2
+hugo_ver: 0.105.0
 
 hugo_arch_map:
   armv6l: arm
@@ -67,3 +67,21 @@ hugo_checksums:
     linux-arm: sha256:de2dec3e44e1983711793fba00ae1c1c59894fa8134644fd27fdc0ea48d79e5a
     # https://github.com/gohugoio/hugo/releases/download/v0.104.2/hugo_0.104.2_linux-arm64.tar.gz
     linux-arm64: sha256:630334d0ba096e6a07eb25a3cbaf5658175ae4e6c1f56959cebe303ae63ff212
+  # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_checksums.txt
+  '0.105.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_windows-amd64.zip
+    windows-amd64: sha256:d82360acd0ffb51f0be3087703b60eba03a9a741cabf85fc313587496bb49926
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:f312ba3d40c18af4955281679701547d832ef1cb21f05707128cd6032e48c4e6
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:ec4914791457a3139014e290f729f59981c434e717914cddd4fd13ea1bc93f09
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:ae879a5c535a18b5686f3b6888a8a5e54d7f09a90d7eb4c215c386da3aabf8c9
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_darwin-universal.tar.gz
+    darwin-universal: sha256:4db24a26ab07f061c13ffc8fb459177a981df4ca48630f5c6da85243e24640ad
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_linux-amd64.tar.gz
+    linux-amd64: sha256:f5d76d69c4dbe56dae506ebadf03acca414f8b2905bce089a1de298515324daa
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_linux-arm.tar.gz
+    linux-arm: sha256:a3f4eb4e8482d55e9292cb626ad51b7aeab4a7ed423b2f88fd4e6eab3611c4e1
+    # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_linux-arm64.tar.gz
+    linux-arm64: sha256:4e33a69c567aa3ff79f6e86a14a930f6c2272c9eacbdf97f04c6a0022440cff5
