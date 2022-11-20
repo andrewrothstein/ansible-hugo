@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.105.0
+hugo_ver: 0.106.0
 
 hugo_arch_map:
   armv6l: arm
@@ -85,3 +85,21 @@ hugo_checksums:
     linux-arm: sha256:a3f4eb4e8482d55e9292cb626ad51b7aeab4a7ed423b2f88fd4e6eab3611c4e1
     # https://github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_linux-arm64.tar.gz
     linux-arm64: sha256:4e33a69c567aa3ff79f6e86a14a930f6c2272c9eacbdf97f04c6a0022440cff5
+  # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_checksums.txt
+  '0.106.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_windows-amd64.zip
+    windows-amd64: sha256:b83deb0a819d9a9cf3ecd67ec4bb8b5476cb6a03ef44a41fa4c2bf15b673b264
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:264854ceab20842f504888c967535af38a4d399b44a7f562851b6ed889307c38
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:a5d9673b83455003fb6036c2b0eb91c9b8596ce7fa7d67076ae2fa36cafee0b5
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:f8aad7ab3fa4180bc636c0659ea19b0e56887eb1e391c9b465b5c528d7279f8e
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_darwin-universal.tar.gz
+    darwin-universal: sha256:a7261e8d1d70bd159adb49d8dbc0d39830a1e12921afb309add049cebc079e15
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_linux-amd64.tar.gz
+    linux-amd64: sha256:8b4363201031d2cce13ea44c6436fd3e4518e4192500b6ab998ad877b3093c58
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_linux-arm.tar.gz
+    linux-arm: sha256:ce57b8481cc82fc954130081316a96b83971af1e26cea72d7498db2f2351a305
+    # https://github.com/gohugoio/hugo/releases/download/v0.106.0/hugo_0.106.0_linux-arm64.tar.gz
+    linux-arm64: sha256:723b890ced0fb36f45858f82545cc14773ddac721eebcf29f411b43a014b2a2f
