@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.108.0
+hugo_ver: 0.109.0
 
 hugo_arch_map:
   armv6l: arm
@@ -139,3 +139,21 @@ hugo_checksums:
     linux-arm: sha256:46984d50351a03e8aff23ed2edfa4203c538f74c7cf3692eeb999445b9dd9467
     # https://github.com/gohugoio/hugo/releases/download/v0.108.0/hugo_0.108.0_linux-arm64.tar.gz
     linux-arm64: sha256:56925227cc12da41582356a9e2bcd71bb4d1e229f3c84583cd65fff535ff61d4
+  # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_checksums.txt
+  '0.109.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_windows-amd64.zip
+    windows-amd64: sha256:7653cbc94a8faa05ee0a77bf31d5548ecbdeda08be9c44057dcbdefe426fff40
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:938e3e7cf0335a89e4cf28c8b8c422b1cb5497e2672921bd50096338ad03dca0
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:47c8e4c77e87216e3502ac9da5b261b62d22522e0d290b24939dcff24664f12e
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:50a1055a59e2d29b38773447eb9a060e60e7385c7fda592af1194d311c33bc09
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_darwin-universal.tar.gz
+    darwin-universal: sha256:5f89380760a6bb7c3b4156614c4772ee740f298b2e8b18c7f053c3ec334a8cad
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_linux-amd64.tar.gz
+    linux-amd64: sha256:36cfd9a0c4e0a084c3b4d2802d408211d2599cab960f223eb10b433579634d9c
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_linux-arm.tar.gz
+    linux-arm: sha256:d7d47655447844519486d27a04e3dc9c8a066656e5ddf2188740d0cd5d8e6437
+    # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_linux-arm64.tar.gz
+    linux-arm64: sha256:40d1906e5d389f899f07cfe35320c90d205a41f0d1633aa8ac8b5f02113a430e
