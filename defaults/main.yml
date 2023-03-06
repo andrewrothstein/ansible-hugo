@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.109.0
+hugo_ver: 0.111.2
 
 hugo_arch_map:
   armv6l: arm
@@ -157,3 +157,21 @@ hugo_checksums:
     linux-arm: sha256:d7d47655447844519486d27a04e3dc9c8a066656e5ddf2188740d0cd5d8e6437
     # https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_linux-arm64.tar.gz
     linux-arm64: sha256:40d1906e5d389f899f07cfe35320c90d205a41f0d1633aa8ac8b5f02113a430e
+  # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_checksums.txt
+  '0.111.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_windows-amd64.zip
+    windows-amd64: sha256:1ffe2e4f5663edcfd4dfac31df4a769c31d902ea2b015e260c31d5b699d2376f
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:ec887273fbdbf5701390d3f4a95a64cd2f9ad66fade6ddbffd7ef58484f7a810
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:598cc12e355c60e8f1f84c0260e60cec1b47318dda69ff35a8318a54580e7d00
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:8ef21564652ed7b12e6f6beed7cfde5d237277d586de386f3bca87d8fcf58679
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_darwin-universal.tar.gz
+    darwin-universal: sha256:f1fbb26beb0a59a856770e4d2afcc7feafd338f4c893f526fb143a6aa1ed43e7
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_linux-amd64.tar.gz
+    linux-amd64: sha256:c7ce404adf0895d914c023846093853777601b0a299ad37e04d35c8675ceafd3
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_linux-arm.tar.gz
+    linux-arm: sha256:87e37a288031bba44168e7b6e7db9c436305cc2c9f3b0ef3c11d4abb188d7a37
+    # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_linux-arm64.tar.gz
+    linux-arm64: sha256:9a4d782d94158a66ea0b8d4d7989f64a1f135ec989e41eba4d072d5beb6745b1
