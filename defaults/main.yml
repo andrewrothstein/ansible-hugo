@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.111.2
+hugo_ver: 0.112.5
 
 hugo_arch_map:
   armv6l: arm
@@ -175,3 +175,21 @@ hugo_checksums:
     linux-arm: sha256:87e37a288031bba44168e7b6e7db9c436305cc2c9f3b0ef3c11d4abb188d7a37
     # https://github.com/gohugoio/hugo/releases/download/v0.111.2/hugo_0.111.2_linux-arm64.tar.gz
     linux-arm64: sha256:9a4d782d94158a66ea0b8d4d7989f64a1f135ec989e41eba4d072d5beb6745b1
+  # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_checksums.txt
+  '0.112.5':
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_windows-amd64.zip
+    windows-amd64: sha256:d6f37f1610041d3e7aa5bc94e5a937cede8cb8865a2feccf87916c98fff75d88
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:9f88b10d3987caec09b26666b99c329da7b1e2bdcfef319766a699229138d140
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:862b84c4268e671b72e64cbd5db18e6bef6499023f13fc0051bd179bfacb04ae
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:9dd7b3649d90c5fc931ecb223591c7bdda882bc86f698534acaa117d80b7de6d
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_darwin-universal.tar.gz
+    darwin-universal: sha256:ad22888540671c4586294d3ddcca107d299ef4999836e79ddbe38ded270b8956
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_linux-amd64.tar.gz
+    linux-amd64: sha256:463a17388be0e0a99075b59b32dd162c999c7c7f7542973c506b9aa2cd409e48
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_linux-arm.tar.gz
+    linux-arm: sha256:f9c6c26650957817e2ef5e1ddbb8a84378b97a5e0e1faf1616b6f8bb6700884f
+    # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_linux-arm64.tar.gz
+    linux-arm64: sha256:f2eac86d415f809329d3212404ae05866804a3c2ce87317a75f15c31a5b9b511
