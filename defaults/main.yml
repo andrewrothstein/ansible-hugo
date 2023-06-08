@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.112.5
+hugo_ver: 0.113.0
 
 hugo_arch_map:
   armv6l: arm
@@ -193,3 +193,21 @@ hugo_checksums:
     linux-arm: sha256:f9c6c26650957817e2ef5e1ddbb8a84378b97a5e0e1faf1616b6f8bb6700884f
     # https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_linux-arm64.tar.gz
     linux-arm64: sha256:f2eac86d415f809329d3212404ae05866804a3c2ce87317a75f15c31a5b9b511
+  # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_checksums.txt
+  '0.113.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_windows-amd64.zip
+    windows-amd64: sha256:b1c5c86c7b8dca47f6576f0f94f1b9c347c29fae9bb370b17dd2796daa9acb84
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:f21f169255c6a0f652b81420dae419014a7ce61c222acb183998e837ff77d354
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:60f90bee75bde9a2e5527af0ff676751d5d9f56fd5ae931df43c51042eee8443
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:391bb370f4881bcf01c35d5386b3e78e9523edef7422ab7a4487ec1992e33e86
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_darwin-universal.tar.gz
+    darwin-universal: sha256:e7bf1914009aecd470d77446a22a77c3a4c1055e344c8466153fa0b3db069ff6
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_linux-amd64.tar.gz
+    linux-amd64: sha256:0686b5d397b888fc4e39e9678751f690bc6fe4442a2096bcb0c267ee9bd1ed2c
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_linux-arm.tar.gz
+    linux-arm: sha256:f460ab72df9e6e689434f7c09a4e6b890fee3c30bf872e0e0d797435fe6bc3ce
+    # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_linux-arm64.tar.gz
+    linux-arm64: sha256:5a343e001b8845e43bd919d3e86a5220759b0a0b45ffdb8682bf366724c04375
