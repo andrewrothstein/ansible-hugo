@@ -12,15 +12,15 @@
       paths:
         - '{{ role_path }}/vars'
 - name: check for install in {{ hugo_install_dir }}
-  become: yes
+  become: true
   stat:
     path: '{{ hugo_install_dir }}'
-  changed_when: False
+  changed_when: false
   register: hugo_binary
 - when: not hugo_binary.stat.exists
   block:
     - name: downloading {{ hugo_archive_url }}
-      become: yes
+      become: true
       become_user: root
       get_url:
         url: '{{ hugo_archive_url }}'
@@ -28,29 +28,29 @@
         mode: 0644
         checksum: '{{ hugo_checksum }}'
     - name: mkdir {{ hugo_install_dir }}
-      become: yes
+      become: true
       become_user: root
       file:
         path: '{{ hugo_install_dir }}'
         state: directory
         mode: 0755
     - name: unarchive {{ hugo_tmp_archive }} to {{ hugo_install_dir }}
-      become: yes
+      become: true
       become_user: root
       unarchive:
-        remote_src: yes
+        remote_src: true
         src: '{{ hugo_tmp_archive }}'
         dest: '{{ hugo_install_dir }}'
         creates: '{{ hugo_install_exe }}'
   always:
     - name: rm {{ hugo_tmp_archive }}
-      become: yes
+      become: true
       become_user: root
       file:
         path: '{{ hugo_tmp_archive }}'
         state: absent
 - name: link {{ hugo_link }} to {{ hugo_install_exe }}
-  become: yes
+  become: true
   become_user: root
   file:
     src: '{{ hugo_install_exe }}'
