@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.113.0
+hugo_ver: 0.114.1
 
 hugo_arch_map:
   armv6l: arm
@@ -211,3 +211,21 @@ hugo_checksums:
     linux-arm: sha256:f460ab72df9e6e689434f7c09a4e6b890fee3c30bf872e0e0d797435fe6bc3ce
     # https://github.com/gohugoio/hugo/releases/download/v0.113.0/hugo_0.113.0_linux-arm64.tar.gz
     linux-arm64: sha256:5a343e001b8845e43bd919d3e86a5220759b0a0b45ffdb8682bf366724c04375
+  # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_checksums.txt
+  '0.114.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_windows-amd64.zip
+    windows-amd64: sha256:d4eff116cf198f8b0f8716088ba61244d83e3b1fc9aa324cf573bf296e5a1ea9
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:ba51ed8cfcd7ed61f957273e9a11cda961ed3bf9ff7d00da38cfaec0da62604a
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:2ba4431afa2637f24c4e21c5dc72b630be7c8c250c5b3fdcee0d00545b4c474c
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:c3075ed424c0ef62cf1f87e640a10bcdf368bdf33898f00868efbc73deaf8f3f
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_darwin-universal.tar.gz
+    darwin-universal: sha256:5b603699fa8ff040a7345849ea0b84cf0c961bc3be25069c1d9e2385ab4ba01e
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_linux-amd64.tar.gz
+    linux-amd64: sha256:018daab2560b4c78b47427f2075ac32b5eaf618a782a6be33693ce508150cd3c
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_linux-arm.tar.gz
+    linux-arm: sha256:3c68a4c2ace992010e08ed1fecc68e63534c1e8d04816a1f75fd8579e71cafaf
+    # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_linux-arm64.tar.gz
+    linux-arm64: sha256:843b5c8abf2b108db504a34d28767252eaa3d079281301debe253ad65b058fca
