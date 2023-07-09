@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.114.1
+hugo_ver: 0.115.2
 
 hugo_arch_map:
   armv6l: arm
@@ -229,3 +229,21 @@ hugo_checksums:
     linux-arm: sha256:3c68a4c2ace992010e08ed1fecc68e63534c1e8d04816a1f75fd8579e71cafaf
     # https://github.com/gohugoio/hugo/releases/download/v0.114.1/hugo_0.114.1_linux-arm64.tar.gz
     linux-arm64: sha256:843b5c8abf2b108db504a34d28767252eaa3d079281301debe253ad65b058fca
+  # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_checksums.txt
+  '0.115.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_windows-amd64.zip
+    windows-amd64: sha256:b1e1ce7583b7bea94a39bfbbb083d21c980a2bcddbbb3fb53d0c65904ab27887
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:e32e5f8a23d5c61cb85ac61adc3e064372a26d8f7aabcc5f484b10de563ecd21
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:e311e2df36a2aa1ca877ef0c85fbc09f82bb3b33df4845cfde6d0668c8ae45e3
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:d4e510c7a7d6e546cac206eff14bb1586f650ade6cd6c92df69043c3c4146cba
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_darwin-universal.tar.gz
+    darwin-universal: sha256:d7ceae4dd3acb86cfd1abd2a41a883ea35fb95b631828696b7dcf3b6fe5a82c6
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_linux-amd64.tar.gz
+    linux-amd64: sha256:a83295a845e2b604c5a393afd222c7a27a9e535ba9006694467a3ebcdbb58684
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_linux-arm.tar.gz
+    linux-arm: sha256:0d2bcd92b55a620ad5b79ae4d63cd4d7be395a32d92896a41382a91b38cc817e
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_linux-arm64.tar.gz
+    linux-arm64: sha256:fdbc1c6605076752fd689a5502155f789aaafe611e0cbe8032805793577c110c
