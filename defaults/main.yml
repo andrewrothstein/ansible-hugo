@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.115.2
+hugo_ver: 0.115.3
 
 hugo_arch_map:
   armv6l: arm
@@ -247,3 +247,21 @@ hugo_checksums:
     linux-arm: sha256:0d2bcd92b55a620ad5b79ae4d63cd4d7be395a32d92896a41382a91b38cc817e
     # https://github.com/gohugoio/hugo/releases/download/v0.115.2/hugo_0.115.2_linux-arm64.tar.gz
     linux-arm64: sha256:fdbc1c6605076752fd689a5502155f789aaafe611e0cbe8032805793577c110c
+  # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_checksums.txt
+  '0.115.3':
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_windows-amd64.zip
+    windows-amd64: sha256:cd5584c37bca8336f8308f4eb7c6131913cabe0d900bcfd0a51ae9403026f980
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:1366add5461a4f03769258a26a268581de92fae15423bdb3af21f24f91d672ad
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:e3dfb79be72ecde2b7b0020f996da5425b2c1e793fd8a9ac14b62f08ee2a1dbb
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:88b43037fd8f7d37e0ea63c2adea7e8defcb62b94caaa76a65446f3b13696438
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_darwin-universal.tar.gz
+    darwin-universal: sha256:86758659dd97ae3360e9f91bb6fa04bf12ab5a0f77d1408339be892d3cced1db
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_linux-amd64.tar.gz
+    linux-amd64: sha256:f05178bd260a2408606f90734eff669463233c90d7949b91f109cdee81486315
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_linux-arm.tar.gz
+    linux-arm: sha256:38b2ed05563045225d874f48fdc03cfa91fc665c2cbd428e5154026c5ccb8471
+    # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_linux-arm64.tar.gz
+    linux-arm64: sha256:c49f7798527893030f9f4430de0811df279b3ce434616288370f63fa2b848cce
