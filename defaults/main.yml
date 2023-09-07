@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.115.3
+hugo_ver: 0.118.2
 
 hugo_arch_map:
   armv6l: arm
@@ -265,3 +265,21 @@ hugo_checksums:
     linux-arm: sha256:38b2ed05563045225d874f48fdc03cfa91fc665c2cbd428e5154026c5ccb8471
     # https://github.com/gohugoio/hugo/releases/download/v0.115.3/hugo_0.115.3_linux-arm64.tar.gz
     linux-arm64: sha256:c49f7798527893030f9f4430de0811df279b3ce434616288370f63fa2b848cce
+  # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_checksums.txt
+  '0.118.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_windows-amd64.zip
+    windows-amd64: sha256:c54dbbc8e3bddf4f33b01f2ee6384ee4c0baabfe347e5ea0e391c0b119ca553b
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:279f7479037abc1905587bb28b3b58c0c90d7b56cb2ff89480de3003b496e0d6
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:00c2002ea29bbec6bc33b64f16d7c18c8c05147cb1666a190ebeba50d7af38e0
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:e8b14e19d844b15675dcbd36b098f6bdde3ffef761d55c934e25872fed7e1c1c
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_darwin-universal.tar.gz
+    darwin-universal: sha256:a050ac897dce8a4537eaa0ee220da40490c8a86e15225ad0f6244da688b7b8a7
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz
+    linux-amd64: sha256:9c4c1a0ca76519a00742a9e75076648fe71480b302241fb941129ac647f01581
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-arm.tar.gz
+    linux-arm: sha256:4bef5b079af8bc00b48e1c5a8f581f39b20e0e71c1acb6efe91924297a2ee1d3
+    # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-arm64.tar.gz
+    linux-arm64: sha256:9d6efe8c6907ab72543f3ec813308b18f8d9700980803aa8fdf1550a74b7e20e
