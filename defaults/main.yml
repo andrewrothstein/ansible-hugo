@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.118.2
+hugo_ver: 0.119.0
 
 hugo_arch_map:
   armv6l: arm
@@ -283,3 +283,21 @@ hugo_checksums:
     linux-arm: sha256:4bef5b079af8bc00b48e1c5a8f581f39b20e0e71c1acb6efe91924297a2ee1d3
     # https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-arm64.tar.gz
     linux-arm64: sha256:9d6efe8c6907ab72543f3ec813308b18f8d9700980803aa8fdf1550a74b7e20e
+  # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_checksums.txt
+  '0.119.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_windows-amd64.zip
+    windows-amd64: sha256:683d2d17f4dabe006a9f29a16959982432630d83591de4ffb372d369992b4ba9
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:db14ebbfce83c1c4678bc07fa0a6dcd1ac5a7a78f90529bfad2d28b12283dca3
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:0fc58098d04a6ea849c1bc5216b1e6c385491a966812bcecd98338880c18b75e
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:68a701a94a6b1f260dc876f474a933d5f35fcbbbd5408745202343c49fdeea91
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_darwin-universal.tar.gz
+    darwin-universal: sha256:6acc7fd33fc5b52b4f632f2851a15143fa19626cbe82e55f1ef4faab7bc213cf
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_linux-amd64.tar.gz
+    linux-amd64: sha256:c94f12d589a0b3c8955cf5107ccc6e9e89ab5a901fb5eb1de1c889da844b737f
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_linux-arm.tar.gz
+    linux-arm: sha256:c8234ed80802dfcef99a4da641da7c28f6f593db6483d93f431b5bbbdeffa383
+    # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_linux-arm64.tar.gz
+    linux-arm64: sha256:f7b15f01ca227243b80f022de919ce7921bac21de588048af15bbfe56907a4d2
