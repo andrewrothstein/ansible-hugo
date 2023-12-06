@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.119.0
+hugo_ver: 0.121.0
 
 hugo_arch_map:
   armv6l: arm
@@ -301,3 +301,21 @@ hugo_checksums:
     linux-arm: sha256:c8234ed80802dfcef99a4da641da7c28f6f593db6483d93f431b5bbbdeffa383
     # https://github.com/gohugoio/hugo/releases/download/v0.119.0/hugo_0.119.0_linux-arm64.tar.gz
     linux-arm64: sha256:f7b15f01ca227243b80f022de919ce7921bac21de588048af15bbfe56907a4d2
+  # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_checksums.txt
+  '0.121.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_windows-amd64.zip
+    windows-amd64: sha256:130a1bfbff536a8e9fb3acd6601d8ca3624a7e3e2ccc3cb4f2d87f815e950e75
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:64fc0d9f7e77f7365af7ec0f58b8b6fa2949cae90b015cee9e69d602c78bc361
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:55c7f86f7348a926457b5e8b353ab5d68ab92f3f91f3dff78cff7e119edac233
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:eb42b3947e7d6fac0d6d5cde7586aa64360c085f086e13189f8d6842dc762994
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_darwin-universal.tar.gz
+    darwin-universal: sha256:ea969fa98dd9d42a214a6dff01ef04346bccf4c25a1d35a3f72292d37395330e
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_linux-amd64.tar.gz
+    linux-amd64: sha256:b1f2188fc71ede6a09e35d9fa6c2838d0be70e4737993cc468f9e9a513b26d33
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_linux-arm.tar.gz
+    linux-arm: sha256:e48668732ef8d2f03af692226de752024b395f4b6f9c09e9d81e9bbbb36a8a2b
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_linux-arm64.tar.gz
+    linux-arm64: sha256:56ec6dc7579a817029f6bda0e5237a0218a9f98ad1534dd0e3bad630fc065e1e
