@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.121.0
+hugo_ver: 0.121.1
 
 hugo_arch_map:
   armv6l: arm
@@ -319,3 +319,21 @@ hugo_checksums:
     linux-arm: sha256:e48668732ef8d2f03af692226de752024b395f4b6f9c09e9d81e9bbbb36a8a2b
     # https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_0.121.0_linux-arm64.tar.gz
     linux-arm64: sha256:56ec6dc7579a817029f6bda0e5237a0218a9f98ad1534dd0e3bad630fc065e1e
+  # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_checksums.txt
+  '0.121.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_windows-amd64.zip
+    windows-amd64: sha256:00a711292bbd0701a082cfa6188a5db51018fe787a56386d174e0e22c06cbcab
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:4a41f0a44fb3ed842bc2e1e5b1ce67568432ef97a01f60bea37b2d4c493d8396
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:1311a9e4fe6e0f3fd894cf4fd1cbf16e40e3cfa556becbe4c92a807a8b85d1e3
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:a0489cb939b3fa0d333cf5ab7230ee42823f41467aa1b6bc1b685b2d91ce6dd9
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_darwin-universal.tar.gz
+    darwin-universal: sha256:60819a1d0c1c495c21c66d08647873842f2fa8752cf5eb8d8797610bb002f52a
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_linux-amd64.tar.gz
+    linux-amd64: sha256:348997284f405abee2a84634525a4e1298b710bbf5bdf5dea30bfc0b1c9aeba5
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_linux-arm.tar.gz
+    linux-arm: sha256:9239031b7bae7f01ced1f35987cfaa8558f4fd76ec2f9913bacd918abf7a15ed
+    # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_linux-arm64.tar.gz
+    linux-arm64: sha256:60973296797730b13febc491db3f966f227d8e4d1ff244bdfbb323923abef0c7
