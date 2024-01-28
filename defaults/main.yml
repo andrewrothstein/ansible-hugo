@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.121.1
+hugo_ver: 0.122.0
 
 hugo_arch_map:
   armv6l: arm
@@ -337,3 +337,21 @@ hugo_checksums:
     linux-arm: sha256:9239031b7bae7f01ced1f35987cfaa8558f4fd76ec2f9913bacd918abf7a15ed
     # https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_linux-arm64.tar.gz
     linux-arm64: sha256:60973296797730b13febc491db3f966f227d8e4d1ff244bdfbb323923abef0c7
+  # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_checksums.txt
+  '0.122.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_windows-amd64.zip
+    windows-amd64: sha256:4a571c7af96884fae5773b58e09d2bfce09655073e4a2f6fa07490ec1b7ec27d
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:9bbbe2aea07986e37dddf2be7ed79a5c727d3a407b5a405fe8f4d65a7ebf5f05
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:409d0ba607c8b781621162f3386085afd2610c84b89712c13d6ad494baa7fe37
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:d0d0a6f154d650f4a2ee3ae3342c27af63297abf503712af5804245158af79a8
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_darwin-universal.tar.gz
+    darwin-universal: sha256:420141d03b13cc3265f29182db79eea4425c459c363d1069c5de9c33adafcbc7
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_linux-amd64.tar.gz
+    linux-amd64: sha256:356a4948e8be7c538220210f03f6374b5d2379d9ca440182efec534cfd45ca9c
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_linux-arm.tar.gz
+    linux-arm: sha256:e26c3a72c6491234036e531074f2f2b1db425cd47618cb13a98a1e857003cc27
+    # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_linux-arm64.tar.gz
+    linux-arm64: sha256:22205d3a7443ded44d39a0ac6562487bed1544dc8598c2d8f6d4c0121e5ebaea

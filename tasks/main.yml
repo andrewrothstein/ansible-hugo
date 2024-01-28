@@ -1,8 +1,9 @@
 ---
-- include_role:
+- name: Installing andrewrothstein.unarchivedeps
+  ansible.builtin.include_role:
     name: andrewrothstein.unarchivedeps
-- name: resolve platform specific vars
-  include_vars: '{{ item }}'
+- name: Resolve platform specific vars
+  ansible.builtin.include_vars: '{{ item }}'
   with_first_found:
     - files:
         - '{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml'
@@ -11,48 +12,49 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: check for install in {{ hugo_install_dir }}
+- name: Check for install in {{ hugo_install_dir }}
   become: true
-  stat:
+  ansible.builtin.stat:
     path: '{{ hugo_install_dir }}'
   changed_when: false
   register: hugo_binary
-- when: not hugo_binary.stat.exists
+- name: Downloading and installing hugo
+  when: not hugo_binary.stat.exists
   block:
-    - name: downloading {{ hugo_archive_url }}
+    - name: Downloading {{ hugo_archive_url }}
       become: true
       become_user: root
-      get_url:
+      ansible.builtin.get_url:
         url: '{{ hugo_archive_url }}'
         dest: '{{ hugo_tmp_archive }}'
-        mode: 0644
+        mode: '644'
         checksum: '{{ hugo_checksum }}'
-    - name: mkdir {{ hugo_install_dir }}
+    - name: Mkdir {{ hugo_install_dir }}
       become: true
       become_user: root
-      file:
+      ansible.builtin.file:
         path: '{{ hugo_install_dir }}'
         state: directory
-        mode: 0755
-    - name: unarchive {{ hugo_tmp_archive }} to {{ hugo_install_dir }}
+        mode: '755'
+    - name: Unarchive {{ hugo_tmp_archive }} to {{ hugo_install_dir }}
       become: true
       become_user: root
-      unarchive:
+      ansible.builtin.unarchive:
         remote_src: true
         src: '{{ hugo_tmp_archive }}'
         dest: '{{ hugo_install_dir }}'
         creates: '{{ hugo_install_exe }}'
   always:
-    - name: rm {{ hugo_tmp_archive }}
+    - name: Rm {{ hugo_tmp_archive }}
       become: true
       become_user: root
-      file:
+      ansible.builtin.file:
         path: '{{ hugo_tmp_archive }}'
         state: absent
-- name: link {{ hugo_link }} to {{ hugo_install_exe }}
+- name: Link {{ hugo_link }} to {{ hugo_install_exe }}
   become: true
   become_user: root
-  file:
+  ansible.builtin.file:
     src: '{{ hugo_install_exe }}'
     dest: '{{ hugo_link }}'
     state: link

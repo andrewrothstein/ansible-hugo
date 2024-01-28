@@ -1,9 +1,14 @@
 ---
-- hosts: all
-  roles:
-  - role: '{{ playbook_dir }}'
+- name: Testing andrewrothstein.hugo
+  hosts: all
   tasks:
-  - command: /usr/local/bin/hugo version
-    register: hugo_test_output
-  - debug:
-      msg: '{{ hugo_test_output.stdout }}'
+    - name: Installing andrewrothstein.hugo
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'hugo version'
+      ansible.builtin.command: /usr/local/bin/hugo version
+      changed_when: false
+      register: hugo_test_output
+    - name: Output of 'hugo version'
+      ansible.builtin.debug:
+        msg: '{{ hugo_test_output.stdout }}'
