@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.122.0
+hugo_ver: 0.123.6
 
 hugo_arch_map:
   armv6l: arm
@@ -355,3 +355,21 @@ hugo_checksums:
     linux-arm: sha256:e26c3a72c6491234036e531074f2f2b1db425cd47618cb13a98a1e857003cc27
     # https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_0.122.0_linux-arm64.tar.gz
     linux-arm64: sha256:22205d3a7443ded44d39a0ac6562487bed1544dc8598c2d8f6d4c0121e5ebaea
+  # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_checksums.txt
+  '0.123.6':
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_windows-amd64.zip
+    windows-amd64: sha256:9a66f6c67abe6d75eefacfab2c2eaf412db8e8fb2ab2b13afba6b6516517a480
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:77e3abea05919b8f151c6f700f61d9c3c0c81928707382fba7131db1e909bd9c
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:2fcb5a1e4a14905a604ca0a08196de47557a10f047cdf376620e92ee32bb33d1
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:3efa04d1d30b9616dcebc095e57900d8f06f9900f296b808c7ccf4bda0fdf518
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_darwin-universal.tar.gz
+    darwin-universal: sha256:a403c45c29d6a909e849e30e815df509faf603c1f984504fc619dc4abc1f712f
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_linux-amd64.tar.gz
+    linux-amd64: sha256:be3a20ea1f585e2dc71bc9def2e505521ac2f5296a72eff3044dbff82bd0075e
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_linux-arm.tar.gz
+    linux-arm: sha256:1bcd99905d4f664462c1d39df8f52c127ae8ab1a1e33abd4b0fc6a456f5c9bf4
+    # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_linux-arm64.tar.gz
+    linux-arm64: sha256:fcfe41b2f19c77cc4e5fdb5fff3e749d87a3aadee111df79149dd64bb11611b4
