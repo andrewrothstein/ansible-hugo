@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.123.6
+hugo_ver: 0.124.0
 
 hugo_arch_map:
   armv6l: arm
@@ -373,3 +373,21 @@ hugo_checksums:
     linux-arm: sha256:1bcd99905d4f664462c1d39df8f52c127ae8ab1a1e33abd4b0fc6a456f5c9bf4
     # https://github.com/gohugoio/hugo/releases/download/v0.123.6/hugo_0.123.6_linux-arm64.tar.gz
     linux-arm64: sha256:fcfe41b2f19c77cc4e5fdb5fff3e749d87a3aadee111df79149dd64bb11611b4
+  # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_checksums.txt
+  '0.124.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_windows-amd64.zip
+    windows-amd64: sha256:0f549c2e36cce7a2c2dcdccae99475e5d38489d9390c435db2c0d7488e73f271
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:e8e00cd3817deeaf0cf2a95e4a1f4c5a28ff894af2d34900d3eba25194263977
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:4fc7b5a6cb2b692a96dd808a649c87d829f0b3a11931da5ab60cd300eff04b66
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:458bc0da2af933d838a1fde550153d81481046736a6dcf35c6dfef410073a924
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_darwin-universal.tar.gz
+    darwin-universal: sha256:891c493631b54b52dcf894f8264a091eb3e60481ea0664a021eab5731342e485
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_linux-amd64.tar.gz
+    linux-amd64: sha256:81ce399cccc33b3b7da390803da2a192bf2ab13e0098b66a706b8b6c13e2cb3a
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_linux-arm.tar.gz
+    linux-arm: sha256:17c31f10ab99ddac70d65634e0105590ec3d4e873a102acec9e4e1bcc99f2919
+    # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_linux-arm64.tar.gz
+    linux-arm64: sha256:be39f88838636c880227b772213f04b7d5ad2cc3890f7592a1a3eff1482ce6b9
