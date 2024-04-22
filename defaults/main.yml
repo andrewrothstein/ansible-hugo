@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.124.0
+hugo_ver: 0.125.2
 
 hugo_arch_map:
   armv6l: arm
@@ -391,3 +391,21 @@ hugo_checksums:
     linux-arm: sha256:17c31f10ab99ddac70d65634e0105590ec3d4e873a102acec9e4e1bcc99f2919
     # https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_linux-arm64.tar.gz
     linux-arm64: sha256:be39f88838636c880227b772213f04b7d5ad2cc3890f7592a1a3eff1482ce6b9
+  # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_checksums.txt
+  '0.125.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_windows-amd64.zip
+    windows-amd64: sha256:3ed1ffd0bc042bea71e20e55095afd551cd723db331cf01a2973adaca247c5ae
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:bd02a3d2e910ad127ea53ee36c2dd2f8ed4b267b7bc95082601615ec99c55070
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:4905abf73357a14ccc3c354bbebcb1ecf37ec3d5eef88f992bf0b942687d9b65
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:7916b2c6eb7d01d962ca5bf1c9c90bc3aa3d52820e50f3377cd6809c9d15cf7e
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_darwin-universal.tar.gz
+    darwin-universal: sha256:a5bceed7081b11992e03d4fdeefb25b727df86b5246caf0148301132c5f73f33
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_linux-amd64.tar.gz
+    linux-amd64: sha256:8bb882ea84a37f89e6b53e12bc48eab05d0aeab4435aeb7e38ad2c0f257f38bc
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_linux-arm.tar.gz
+    linux-arm: sha256:09cec2558773ffaded949c0a781ad095cd8084a21b718169a68e8c6132586bac
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_linux-arm64.tar.gz
+    linux-arm64: sha256:ceac4ae2dbe194a0587e39e9bf91461714157bab09204bc76c2dbf5e23f5d9f9
