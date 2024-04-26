@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.125.2
+hugo_ver: 0.125.4
 
 hugo_arch_map:
   armv6l: arm
@@ -409,3 +409,21 @@ hugo_checksums:
     linux-arm: sha256:09cec2558773ffaded949c0a781ad095cd8084a21b718169a68e8c6132586bac
     # https://github.com/gohugoio/hugo/releases/download/v0.125.2/hugo_0.125.2_linux-arm64.tar.gz
     linux-arm64: sha256:ceac4ae2dbe194a0587e39e9bf91461714157bab09204bc76c2dbf5e23f5d9f9
+  # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_checksums.txt
+  '0.125.4':
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_windows-amd64.zip
+    windows-amd64: sha256:39196bf2a5afa94078e197a6d97b0a2bc6b76d2ca71838090beb6f2045f17c28
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:b0b44d7e5b78396e99d68b2841165fc631184b74afc2155757b54273a1f0bc89
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:ffdee0c5d9410df9183e910ccffc331dabad03d30ce1611963aba5e4559ec238
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:c2a8b1156123cb3e35e62e07aed8b45689dbf1956744f555df35dfd742712b07
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_darwin-universal.tar.gz
+    darwin-universal: sha256:faa85ddc69bdfbcd41ce1f369a2ecba5caf261ad0dafa76ee3016e1a05960fab
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_linux-amd64.tar.gz
+    linux-amd64: sha256:00dc0674e458560dc7ee3310d1d4adb509208be867d9498d0055fd29e406e251
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_linux-arm.tar.gz
+    linux-arm: sha256:a666e7a4f73f5c0e49b2e98ae31e9f617e81622e7d9b337341fbaa7b7d4d1243
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_linux-arm64.tar.gz
+    linux-arm64: sha256:aab11329169b786cd27fc373da250eb6f411e84a6e22f1a1a4c8623f9badb2fe
