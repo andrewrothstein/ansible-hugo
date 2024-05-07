@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.125.4
+hugo_ver: 0.125.6
 
 hugo_arch_map:
   armv6l: arm
@@ -427,3 +427,21 @@ hugo_checksums:
     linux-arm: sha256:a666e7a4f73f5c0e49b2e98ae31e9f617e81622e7d9b337341fbaa7b7d4d1243
     # https://github.com/gohugoio/hugo/releases/download/v0.125.4/hugo_0.125.4_linux-arm64.tar.gz
     linux-arm64: sha256:aab11329169b786cd27fc373da250eb6f411e84a6e22f1a1a4c8623f9badb2fe
+  # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_checksums.txt
+  '0.125.6':
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_windows-amd64.zip
+    windows-amd64: sha256:3e6744f76b643b3fd6a8073320915828e4c04e6db56e4a58b26fa6dd047b6905
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:7d531ad33866c386970be78cb5f4670adcf350166386c93ca77ead251ab0c7ac
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:791815db79e6ad5f83eedaaf308134e37f3873af1940bee6534cbde05b1f5209
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:b03a3e465a74f3288bdf34c546490138dc63208ecff4bb8d418c8bfb44800d6c
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_darwin-universal.tar.gz
+    darwin-universal: sha256:aeb317c61573cbbfdf1c8e8ae8a6ce8db28c060889af59fce9f7413ee91d57cd
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_linux-amd64.tar.gz
+    linux-amd64: sha256:01ce6d58c1f5b246863e544e15b68c789dff7fa0b3eb1f6d7036cfcac4db4a0e
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_linux-arm.tar.gz
+    linux-arm: sha256:3acba0e16314cf4527eaafbac570fe961ba8b2dc4ba339095682cd160d9f2fcf
+    # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_linux-arm64.tar.gz
+    linux-arm64: sha256:7fb38fb2f6619450adf61cb9aa522e2de81bb467088b393f662cf683774b200c
