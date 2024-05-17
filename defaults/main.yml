@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.125.6
+hugo_ver: 0.126.1
 
 hugo_arch_map:
   armv6l: arm
@@ -445,3 +445,21 @@ hugo_checksums:
     linux-arm: sha256:3acba0e16314cf4527eaafbac570fe961ba8b2dc4ba339095682cd160d9f2fcf
     # https://github.com/gohugoio/hugo/releases/download/v0.125.6/hugo_0.125.6_linux-arm64.tar.gz
     linux-arm64: sha256:7fb38fb2f6619450adf61cb9aa522e2de81bb467088b393f662cf683774b200c
+  # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_checksums.txt
+  '0.126.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_windows-amd64.zip
+    windows-amd64: sha256:c4a52dae35da62049d93e6ec45d3a742c9db18e5c6b1798dd1b6ad90a33d4daa
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:3d5fb7d413eaadd99b474d93b7007796128833ae02413c1e24216b97795f320c
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:1b7cb1744c208d197ca386d018e05c1dc03e9fadb35345ed5319691b05decab5
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:d38dbeb80d8a62a0ca56ffde6dcc02fbf87995b8a01c05a11171841667a3cd9c
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_darwin-universal.tar.gz
+    darwin-universal: sha256:98070806663830987c298dd808361af31672d581f20d9d3c26f650eb88d27d6a
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_linux-amd64.tar.gz
+    linux-amd64: sha256:48d85fdfa6ac70831bd3207e328a6b274c55f76e40f9e7486380c3d72062469e
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_linux-arm.tar.gz
+    linux-arm: sha256:98f7990cf24be23742f209fc38d22b937839eebd5bc878a4ccd9b55009e77b6f
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_linux-arm64.tar.gz
+    linux-arm64: sha256:b1ae6fd26f9eb27153bda8ac27021b64d89d0470f51322afcd778b19d728cf0d
