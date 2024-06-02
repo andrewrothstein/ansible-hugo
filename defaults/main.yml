@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.126.1
+hugo_ver: 0.126.2
 
 hugo_arch_map:
   armv6l: arm
@@ -463,3 +463,21 @@ hugo_checksums:
     linux-arm: sha256:98f7990cf24be23742f209fc38d22b937839eebd5bc878a4ccd9b55009e77b6f
     # https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_0.126.1_linux-arm64.tar.gz
     linux-arm64: sha256:b1ae6fd26f9eb27153bda8ac27021b64d89d0470f51322afcd778b19d728cf0d
+  # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_checksums.txt
+  '0.126.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_windows-amd64.zip
+    windows-amd64: sha256:6e9d66e6a699d241820e5434bb726080bbdc33439a53173fc77da234cc830a7c
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:d3c411f0ae13b08da488aff78d6b5eb8ba643e331f76067a85f423f52f711f71
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:9136461771cf40b619bc49b2de89e2825952c6fafc48f9f90e451ceb05d55c5e
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:0e5c40645cd576826f34d675a6583320e9c742826a34e637592778f1b2a2b6cb
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_darwin-universal.tar.gz
+    darwin-universal: sha256:d72aed62dc0f66ef44dc0612cefaee51356d1899ad130ba4aa2d5d97bb909a03
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_linux-amd64.tar.gz
+    linux-amd64: sha256:5b48b23ad9738a4bdd8d28dd09d5e78b5c09edfd815d02a9608e9eea53b7762e
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_linux-arm.tar.gz
+    linux-arm: sha256:bf8a8604b5ce9d348d6f800b5c25507aa231570056848a275b3d1f3e51e62da9
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_linux-arm64.tar.gz
+    linux-arm64: sha256:4b14630cb283fe59b615f50bf9c1032ff1d62fba13deee6a54b7d4750cf639f1
