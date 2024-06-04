@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.126.2
+hugo_ver: 0.126.3
 
 hugo_arch_map:
   armv6l: arm
@@ -481,3 +481,21 @@ hugo_checksums:
     linux-arm: sha256:bf8a8604b5ce9d348d6f800b5c25507aa231570056848a275b3d1f3e51e62da9
     # https://github.com/gohugoio/hugo/releases/download/v0.126.2/hugo_0.126.2_linux-arm64.tar.gz
     linux-arm64: sha256:4b14630cb283fe59b615f50bf9c1032ff1d62fba13deee6a54b7d4750cf639f1
+  # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_checksums.txt
+  '0.126.3':
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_windows-amd64.zip
+    windows-amd64: sha256:57a3b35fd363219255d37fc29137eebcaedbfa65c99e985d79da44d1b68911ee
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:5a8df30edc954c4fc6fafec843ad1af251e754175070e8d14c42da7a8f5d2c10
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:dec374b4c6d96850fc3289165c5dc851f804ef5ed670d2adf88fa5746b6cbaaa
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:2c394501d914739d3c46069b025bbff7a40803e7e74b45fddff2eee20f9c1722
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_darwin-universal.tar.gz
+    darwin-universal: sha256:6613a4324276b3f9099294f30aaedd832710211a7d8678be33369830515d6171
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_linux-amd64.tar.gz
+    linux-amd64: sha256:c2131c74f2fd52d10c3d13f36d99dfa3a86293feb8cbed8ac92d81876768bd67
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_linux-arm.tar.gz
+    linux-arm: sha256:23d608aa2f9372da2713c488d020cb87038ba9cd6385cebfc92fc17ac5d4a83a
+    # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_linux-arm64.tar.gz
+    linux-arm64: sha256:98a07c705d2395d43527eb228a6c3d7956f6e7476417fabdc5e792662f76e25d
