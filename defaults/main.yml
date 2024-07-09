@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.126.3
+hugo_ver: 0.128.2
 
 hugo_arch_map:
   armv6l: arm
@@ -499,3 +499,21 @@ hugo_checksums:
     linux-arm: sha256:23d608aa2f9372da2713c488d020cb87038ba9cd6385cebfc92fc17ac5d4a83a
     # https://github.com/gohugoio/hugo/releases/download/v0.126.3/hugo_0.126.3_linux-arm64.tar.gz
     linux-arm64: sha256:98a07c705d2395d43527eb228a6c3d7956f6e7476417fabdc5e792662f76e25d
+  # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_checksums.txt
+  '0.128.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_windows-amd64.zip
+    windows-amd64: sha256:65055c32bd290b8b63060ddac8b55dc08cb36765a6b0d1387204ea71197682ce
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:664388dbf9295345c350bb85139b56d0ed2a32361b58cf383857f744f9438142
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:dd200c6e1ed9b8dc5ae3a63a2d7237dcf6855b49ee5c55f29f624d574f65fcf4
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:a627565d494d1f3ab8059a3f2880726567b69e70c941b0092e20d0e455475cc9
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_darwin-universal.tar.gz
+    darwin-universal: sha256:af3383093fae4b8b73c86a1074b2b2773fc8d35dbd766a965f9e376e2e220cee
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_linux-amd64.tar.gz
+    linux-amd64: sha256:69396257858a90423618b9bddd3de649b91a921acf93f9af6ecd67534f2f651e
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_linux-arm.tar.gz
+    linux-arm: sha256:292e5b5b31ba6bbdf26b234f226aeb1be34fc5660f3a729fc345093cea521a4d
+    # https://github.com/gohugoio/hugo/releases/download/v0.128.2/hugo_0.128.2_linux-arm64.tar.gz
+    linux-arm64: sha256:fc0db0ac3d11ab7ff5b366e3e1d1d52fba56dadf3eeaa3ac49c57ef818a8b42a
