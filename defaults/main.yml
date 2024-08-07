@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.129.0
+hugo_ver: 0.131.0
 
 hugo_arch_map:
   armv6l: arm
@@ -535,3 +535,21 @@ hugo_checksums:
     linux-arm: sha256:0e5e0bcbac3387806177e8aca0002e4a039acd0e9a5523fcee20d0045755d463
     # https://github.com/gohugoio/hugo/releases/download/v0.129.0/hugo_0.129.0_linux-arm64.tar.gz
     linux-arm64: sha256:ad0fc355da23b2066002baacb64cc43061fc09e8ee08b77fb082ed8180967397
+  # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_checksums.txt
+  '0.131.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_windows-amd64.zip
+    windows-amd64: sha256:2a3fb57b7e24e02ed9e389a6e9d0f0546939157498347a4f34abf5658df2ede0
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:e6016a1653ea6f30b8e94708299081eaf843ef76391c725296af6d75ea390037
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:1d6c75bff67f2aa745c57e7f328ebd0ed2a732f2b40784a1502951709dbdd9b0
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:34f6ebf1c2ae2068827a988f7cb186242e8ff56e4c5a5de4c1e196e8ef6b88c7
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_darwin-universal.tar.gz
+    darwin-universal: sha256:23497a8b5671f81d5dde55942155406b485b661d10dbdbc9018380cf0b813cd0
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_linux-amd64.tar.gz
+    linux-amd64: sha256:d8e48be075611d732995a3bdf9ecb37069e9fe41f9afba01c47c6e838458d8b8
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_linux-arm.tar.gz
+    linux-arm: sha256:05165a330675450235939dc875f69bb016d27c76a6bd02d25387a933cfef9304
+    # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_linux-arm64.tar.gz
+    linux-arm64: sha256:ad6ce99f4a0915a1aaf973b2fd5e08d848d755d7af18b45b1be7fe5dca49b795
