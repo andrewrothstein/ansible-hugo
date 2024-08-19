@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.131.0
+hugo_ver: 0.133.0
 
 hugo_arch_map:
   armv6l: arm
@@ -553,3 +553,21 @@ hugo_checksums:
     linux-arm: sha256:05165a330675450235939dc875f69bb016d27c76a6bd02d25387a933cfef9304
     # https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_linux-arm64.tar.gz
     linux-arm64: sha256:ad6ce99f4a0915a1aaf973b2fd5e08d848d755d7af18b45b1be7fe5dca49b795
+  # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_checksums.txt
+  '0.133.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_windows-amd64.zip
+    windows-amd64: sha256:b643f3d6cf7e1f5bb27b9aad2bb8811cfa95afa9204d46d9289521eeee25de21
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:a896f144fe049432a51ae51f09e044eabe96b63affaff2547f408785d957dbb9
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:067995bee5dae3cb231aaf276b7b6cd4ddbd30727698374398738bade72bc375
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:c5592bdf85fac3b07e3404709215518cc4ed3bcd9a7d63ea7d7f285c94ff5cc2
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_darwin-universal.tar.gz
+    darwin-universal: sha256:3d03daa25e652a9a1d4a7039eccce9bbd07de1f0cd73fe108e2a8acaec6668a6
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_linux-amd64.tar.gz
+    linux-amd64: sha256:051add83c505941e129b4c33654dc6a0700fe71f74e7d8c2532c8bb394bb9583
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_linux-arm.tar.gz
+    linux-arm: sha256:db56cbeba2505e75f4f11421182353f6e80d0e7a0b8018418c7027f27a393d78
+    # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_linux-arm64.tar.gz
+    linux-arm64: sha256:09030a8cab0c36a062fba7fe6f0b4a876b208d5f978cbdc7bb59650431e2822e
