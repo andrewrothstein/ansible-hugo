@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.133.0
+hugo_ver: 0.134.0
 
 hugo_arch_map:
   armv6l: arm
@@ -571,3 +571,21 @@ hugo_checksums:
     linux-arm: sha256:db56cbeba2505e75f4f11421182353f6e80d0e7a0b8018418c7027f27a393d78
     # https://github.com/gohugoio/hugo/releases/download/v0.133.0/hugo_0.133.0_linux-arm64.tar.gz
     linux-arm64: sha256:09030a8cab0c36a062fba7fe6f0b4a876b208d5f978cbdc7bb59650431e2822e
+  # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_checksums.txt
+  '0.134.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_windows-amd64.zip
+    windows-amd64: sha256:b39034550721acd39d038c8199ed80aedc79f8499275f7d6e0b23603088743ab
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:ad026e23c10a0f877f1ac87fe957582ef46f276db7e386cb6fc3a53c40012206
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:a5604d921aa52739f0c8cd70a8147bafc1ae9cc88013d4613ce9d954b6adb7b1
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:06fc6902785c18b8892b37d4d83c439951bc53381da9a82cec46ca8be6c4754a
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_darwin-universal.tar.gz
+    darwin-universal: sha256:dff2c6341434083ee820d9d04fcb157e8fdc8d9a191201c442b5d863aa55baab
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_linux-amd64.tar.gz
+    linux-amd64: sha256:cf5f0037614dd5bf1e7cc6ea73c5a18869f5cf78ef8c70c2ba7d28e243b3d309
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_linux-arm.tar.gz
+    linux-arm: sha256:352c51c0bcd0ee4ed819c722a82e74649c3a400f36693a4a177c6520bab1ec28
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_linux-arm64.tar.gz
+    linux-arm64: sha256:faf029f63c5997abcf43fa05bc1bee468277aae480ba1f885232956790a12417
