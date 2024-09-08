@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.134.0
+hugo_ver: 0.134.1
 
 hugo_arch_map:
   armv6l: arm
@@ -589,3 +589,21 @@ hugo_checksums:
     linux-arm: sha256:352c51c0bcd0ee4ed819c722a82e74649c3a400f36693a4a177c6520bab1ec28
     # https://github.com/gohugoio/hugo/releases/download/v0.134.0/hugo_0.134.0_linux-arm64.tar.gz
     linux-arm64: sha256:faf029f63c5997abcf43fa05bc1bee468277aae480ba1f885232956790a12417
+  # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_checksums.txt
+  '0.134.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_windows-amd64.zip
+    windows-amd64: sha256:1ae83914460f72ca999b1ab6ecf72b0b46435136b6c80c4fa7f4ede7ffe9f491
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:e66a158252f961996b72c1788ce91ab03a483374ae51699e4461362f438bcb3c
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:c15a18c4de9d146408ec73b64c30d359909eeb87903d5c2f510e82903715d7f3
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:30af0a7751eedf5a7027b9e181084e1b2c9ee2f86cf54c7b99c24af5725fec6f
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_darwin-universal.tar.gz
+    darwin-universal: sha256:735cddf291843e0314e8322fde8c0904bd2cc25be25c1f824f6510d37212905b
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_linux-amd64.tar.gz
+    linux-amd64: sha256:0ba3ecbe51580731635e5e8c0d911aeff09150e74b0f04f75be8112012c4e05c
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_linux-arm.tar.gz
+    linux-arm: sha256:4d7df0203028bb7827d181758213dc828775325eb859b0e3ac359f3a73e318dd
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_linux-arm64.tar.gz
+    linux-arm64: sha256:7c6347b1c4d2062906f51d1a2a3d715a0b401bf5272bdf07122e6f088c9fbaa1
