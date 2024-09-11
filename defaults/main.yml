@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.134.1
+hugo_ver: 0.134.2
 
 hugo_arch_map:
   armv6l: arm
@@ -607,3 +607,21 @@ hugo_checksums:
     linux-arm: sha256:4d7df0203028bb7827d181758213dc828775325eb859b0e3ac359f3a73e318dd
     # https://github.com/gohugoio/hugo/releases/download/v0.134.1/hugo_0.134.1_linux-arm64.tar.gz
     linux-arm64: sha256:7c6347b1c4d2062906f51d1a2a3d715a0b401bf5272bdf07122e6f088c9fbaa1
+  # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_checksums.txt
+  '0.134.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_windows-amd64.zip
+    windows-amd64: sha256:38ddec196255c9543f685dd2f00c5d380cd816c955244cb92f1e73d93af356a2
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:bc8e569f514b5cb8a4d35bc7b30118bef3fd6551732441df989dfc3468a6b2f4
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:5770da30222557a466e8343c98ef6af9c8d4daa2573743a2f84614709a8909e9
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:07f79c4d4dc6a7ac59db9add618d5a72866a30cda1ab29318ca0d79a8ee0c7ea
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_darwin-universal.tar.gz
+    darwin-universal: sha256:5ce6c44f4ea733afbbf46d35f9f25680f084cc1c47d45cd5c1fdf857a7d468c3
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_linux-amd64.tar.gz
+    linux-amd64: sha256:be165beeb8e39df87001c894da73ca872c94d5ff8879de7a11b5ff526e5fb7a0
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_linux-arm.tar.gz
+    linux-arm: sha256:aba63242712e5c67a6d69b0a4fc3f2899b7ca5906b074d8436b0f6b7a6c20fb0
+    # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_linux-arm64.tar.gz
+    linux-arm64: sha256:3ca4ae3dbbf58e708cccb3ededb7df73f5e67174545ca95467e5059dce0eb05e
