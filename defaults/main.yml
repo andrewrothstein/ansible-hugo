@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.134.2
+hugo_ver: 0.135.0
 
 hugo_arch_map:
   armv6l: arm
@@ -625,3 +625,21 @@ hugo_checksums:
     linux-arm: sha256:aba63242712e5c67a6d69b0a4fc3f2899b7ca5906b074d8436b0f6b7a6c20fb0
     # https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_linux-arm64.tar.gz
     linux-arm64: sha256:3ca4ae3dbbf58e708cccb3ededb7df73f5e67174545ca95467e5059dce0eb05e
+  # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_checksums.txt
+  '0.135.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_windows-amd64.zip
+    windows-amd64: sha256:5321edab26bca3913fcece0c614f9ea4ded187155b055c1ff00c5c88c7acd971
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:893a85fe2dd589fe7a7a4eb23897d2266720f047cb2b62df72cccb14b6c7a0c3
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:cdcbd5cfa38d80ddbb0605bbd1b230559b9087d5bda17be3229c46aa897b1d60
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:c3f5215f4ee20ec45fa2200046877fc2c6e457276495a8476686bffcd1bd4bdb
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_darwin-universal.tar.gz
+    darwin-universal: sha256:4d8ee1b8e0b47972017570f724b69210a85c3bd3d33df46face487d24389baab
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_linux-amd64.tar.gz
+    linux-amd64: sha256:ba6adcca5bb8ea899f712bfa5734c91602ed17eae31917919ca40547853b1394
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_linux-arm.tar.gz
+    linux-arm: sha256:21e43373c50b2f3a95a72c5c0a64b5232284f8a20dc7b93effd61fbfeb1b2a25
+    # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_linux-arm64.tar.gz
+    linux-arm64: sha256:5e627e826e81ce56b400d29c65eda38d1969e36b48a26bdc9234501bf6bdf902
