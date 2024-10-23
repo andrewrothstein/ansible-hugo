@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.135.0
+hugo_ver: 0.136.4
 
 hugo_arch_map:
   armv6l: arm
@@ -643,3 +643,21 @@ hugo_checksums:
     linux-arm: sha256:21e43373c50b2f3a95a72c5c0a64b5232284f8a20dc7b93effd61fbfeb1b2a25
     # https://github.com/gohugoio/hugo/releases/download/v0.135.0/hugo_0.135.0_linux-arm64.tar.gz
     linux-arm64: sha256:5e627e826e81ce56b400d29c65eda38d1969e36b48a26bdc9234501bf6bdf902
+  # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_checksums.txt
+  '0.136.4':
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_windows-amd64.zip
+    windows-amd64: sha256:11be312e75a918a385136f7e261d97f97f87ab02bcfa554a459b2d6bf62cd605
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:d39dfd598d5d9e69b5b1ca896dd2bee5947f92f9de818f1bf3a15a89660a9cd1
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:c5db7eff8c42b8547feba01a0b7619541c3a927692f9eb7940d3538359c2b24d
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:3324d305c9d05e6e686100738778ff19b28dceb440c988305b306d61fba95854
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_darwin-universal.tar.gz
+    darwin-universal: sha256:a817c81bd7b74f715d5a313297e535fe18ba6770e3484e6364e3600db0746401
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_linux-amd64.tar.gz
+    linux-amd64: sha256:d6ed489ad4f58266afb073050646b149c78a9883e962d39d3ffa8c9a11b12289
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_linux-arm.tar.gz
+    linux-arm: sha256:ea3ce08eaf2a0985eb0f821cfd091f048472678660aa82e5c5e3b394c4b76ec5
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_linux-arm64.tar.gz
+    linux-arm64: sha256:144c59a5fcaef36b60e722fbdfe3b4e49253513a72c9bedf41eb9b5f382dc343
