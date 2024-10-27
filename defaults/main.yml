@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.136.4
+hugo_ver: 0.136.5
 
 hugo_arch_map:
   armv6l: arm
@@ -661,3 +661,21 @@ hugo_checksums:
     linux-arm: sha256:ea3ce08eaf2a0985eb0f821cfd091f048472678660aa82e5c5e3b394c4b76ec5
     # https://github.com/gohugoio/hugo/releases/download/v0.136.4/hugo_0.136.4_linux-arm64.tar.gz
     linux-arm64: sha256:144c59a5fcaef36b60e722fbdfe3b4e49253513a72c9bedf41eb9b5f382dc343
+  # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_checksums.txt
+  '0.136.5':
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_windows-amd64.zip
+    windows-amd64: sha256:4ebae236d1e55255748139e4b43c9b0ac40ca8ac8cb11186acc3f85e9c5cf7b3
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:64ad6d6a3c88af3715f036e2cfbe1c765ef7fead9a418d49c5c1294ee216f1e8
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:fba75d0c019e1a9ddca75948bb513a14c7b68403c596c2b5da8b9470ff93e9cf
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:2bd8720dc7fdb4da5c13834649e9804b9aa231517b912b25ca2f6c550e766b5b
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_darwin-universal.tar.gz
+    darwin-universal: sha256:91c8ceb4d5812cac059742a9aacffff1651a5d540f53786370f867d225af3229
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_linux-amd64.tar.gz
+    linux-amd64: sha256:2f1b2157fcc9bc4de8733f5cff0b99b7fe13c088fd1001af7e6952eace93553b
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_linux-arm.tar.gz
+    linux-arm: sha256:57eacfa48c79d53f4cbf035cfd0e39dcefb9872c2d79a9defcbed57087ed6e67
+    # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_linux-arm64.tar.gz
+    linux-arm64: sha256:432554befdbca7d2519c4f823c6a6591a3329195a4d20475ce38e66c521069ff
