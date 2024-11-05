@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.136.5
+hugo_ver: 0.137.1
 
 hugo_arch_map:
   armv6l: arm
@@ -679,3 +679,21 @@ hugo_checksums:
     linux-arm: sha256:57eacfa48c79d53f4cbf035cfd0e39dcefb9872c2d79a9defcbed57087ed6e67
     # https://github.com/gohugoio/hugo/releases/download/v0.136.5/hugo_0.136.5_linux-arm64.tar.gz
     linux-arm64: sha256:432554befdbca7d2519c4f823c6a6591a3329195a4d20475ce38e66c521069ff
+  # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_checksums.txt
+  '0.137.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_windows-amd64.zip
+    windows-amd64: sha256:acac583c06c76f7ba733d6abb5bc06993907d732a98c56d63f3a10bfe3a92026
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:7d7e2d418b9b2b5624f6517a0139aa6118bce7d0d3c777f99831fa23e6cd34db
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:bc02e0b398f7e0db54e9aca08d8ccb83f6e218cf3ea0114658f16655d5ceb3fe
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:df0f2e6e02dac3cd6f352ba45cc3e906ae2a35768564bb5666a32e5aa36e757c
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_darwin-universal.tar.gz
+    darwin-universal: sha256:da804879a3db0101b9dcc0b08422ffb04314f72f2db8c41f9284beb95e78d5e1
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_linux-amd64.tar.gz
+    linux-amd64: sha256:a9f20de01c843ecd894640d7750e63fbe3dac78cd7b739b53a15f363452bbc2c
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_linux-arm.tar.gz
+    linux-arm: sha256:a2636fcb00e1cdd1402afba9a2a12644fa3c2dae9de9188bb19dd97fb51c2214
+    # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_linux-arm64.tar.gz
+    linux-arm64: sha256:15b9b4c7ad0ef6e55b89c3bf6c1b9a5f7429265accfd2aef882199932289730e
