@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.137.1
+hugo_ver: 0.139.3
 
 hugo_arch_map:
   armv6l: arm
@@ -697,3 +697,21 @@ hugo_checksums:
     linux-arm: sha256:a2636fcb00e1cdd1402afba9a2a12644fa3c2dae9de9188bb19dd97fb51c2214
     # https://github.com/gohugoio/hugo/releases/download/v0.137.1/hugo_0.137.1_linux-arm64.tar.gz
     linux-arm64: sha256:15b9b4c7ad0ef6e55b89c3bf6c1b9a5f7429265accfd2aef882199932289730e
+  # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_checksums.txt
+  '0.139.3':
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_windows-amd64.zip
+    windows-amd64: sha256:6f0313329619ed375ab266c3256e12348cbc9f8ee24e5d1c3e7cc5c56cdd225e
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:604d54786cea1d6617eb622c635c7ecbd8de2c6af213c63b44b757680ab146d2
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:576bad59e7993b834004b9a60298d74f83262602a984d1088d0d16dde24d84c2
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:2677ddabf6e51945d11e7eea759ec3caee705563cccb83f165a250a73c8b7b18
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_darwin-universal.tar.gz
+    darwin-universal: sha256:71dc9b180cf876f681860c90ac61ec35dd867e5c090a3d2c35c41d3991a05617
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-amd64.tar.gz
+    linux-amd64: sha256:fcf9265c4d72f713a07c73b7fcf32f4aa31a1d9cf13444e6d22ae1926d527652
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-arm.tar.gz
+    linux-arm: sha256:e3f21bcdefc99300bc5cc819885877708b24356981c3bcfc8bcb9d511e5458bb
+    # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-arm64.tar.gz
+    linux-arm64: sha256:34ccc9ebf98269894f1e0dd80c03b78c4eb8538612a02d57a7d2980fe5e4a572
