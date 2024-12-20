@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.139.3
+hugo_ver: 0.140.0
 
 hugo_arch_map:
   armv6l: arm
@@ -715,3 +715,21 @@ hugo_checksums:
     linux-arm: sha256:e3f21bcdefc99300bc5cc819885877708b24356981c3bcfc8bcb9d511e5458bb
     # https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-arm64.tar.gz
     linux-arm64: sha256:34ccc9ebf98269894f1e0dd80c03b78c4eb8538612a02d57a7d2980fe5e4a572
+  # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_checksums.txt
+  '0.140.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_windows-amd64.zip
+    windows-amd64: sha256:7cf545882ddab657cd576bd1db60a8abb9b3dfbe2c68af7f3cd95f62dbad3c50
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:0a42fcf6ba7b592f1e324be06a850ffb385b176fcfede84841fea8b947fbaa8c
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:b637ea274c22b66cb2d1438356d692e3874659381cca0a6b11a0a958d7b977e5
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:24d7680ba4ed5a2da1b2a071834ec718886a4030aebdb3ece11331beff1d73d9
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_darwin-universal.tar.gz
+    darwin-universal: sha256:bfd33c955eaef686a0845488b27f5487b1104498b2af29817b113c5f764add75
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_linux-amd64.tar.gz
+    linux-amd64: sha256:559f1b849abad205b7447e326eee2122049a731f06386294f39cd08e8384bf79
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_linux-arm.tar.gz
+    linux-arm: sha256:0ed7863dbc52563f8ac0d618028f5d59f8e01870f9924a8174274040c6a74371
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_linux-arm64.tar.gz
+    linux-arm64: sha256:9a7e20763d2e4e6f59db151aab3d589b70f26698b26b0bb8f95359b5a8578d51
