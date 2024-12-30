@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.140.0
+hugo_ver: 0.140.2
 
 hugo_arch_map:
   armv6l: arm
@@ -733,3 +733,39 @@ hugo_checksums:
     linux-arm: sha256:0ed7863dbc52563f8ac0d618028f5d59f8e01870f9924a8174274040c6a74371
     # https://github.com/gohugoio/hugo/releases/download/v0.140.0/hugo_0.140.0_linux-arm64.tar.gz
     linux-arm64: sha256:9a7e20763d2e4e6f59db151aab3d589b70f26698b26b0bb8f95359b5a8578d51
+  # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_checksums.txt
+  '0.140.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_windows-amd64.zip
+    windows-amd64: sha256:77b5bc210dd27c852a79fa8839eb61cbab6672b8efca1c7560d1ed31e4b03ac6
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:3016930efddd53e7cf28cb3499966e2906c5dae6f50d1b7b0055ffba4aca2db6
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:d2b78ca75f41d8752dbd1920e82b4568d2f64567a875a0f591071b3a87865494
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:7b22fc9788807330089da1a7bf30622ab3b551f615899ac608acc27a70d557aa
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_darwin-universal.tar.gz
+    darwin-universal: sha256:49fe3ac7fafc706959374819240c321f7e51d0851e9be1e4616d834388dd93de
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_linux-amd64.tar.gz
+    linux-amd64: sha256:d68866b94b7e134a46eab824631f6da8553f5bdbc8aaa0659d7100f68e34b103
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_linux-arm.tar.gz
+    linux-arm: sha256:5ea5c54cef032abeadacc5ad1ed6d5684ab889a03c190e6006deed0a1c5d7bdf
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_0.140.1_linux-arm64.tar.gz
+    linux-arm64: sha256:08a33b1ae3e73bd77ef74ffff9b1a1c263cce083bd789337656588d9a51dd4ab
+  # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_checksums.txt
+  '0.140.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_windows-amd64.zip
+    windows-amd64: sha256:14b13e4d7c8bce117a757b15133b4252dc5793542398d0566afebe4fb0b542aa
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:3c360cc58ea77c4eae8b2a3fecd2b9b803abd335d27a0a384a40ca18b5528ca0
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:10e7b600c6bb612179c70b029e523211e0ffe6b4528b8ceeceb195c31bca21cb
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:7c55455f802ce4451ae05b6da4f3113cee5a5b9c784f732089689893218782c4
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_darwin-universal.tar.gz
+    darwin-universal: sha256:673a3a6017451f74ea7e4799d48fa8142f02e50f82dc6f9402f87e93cb072bc5
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_linux-amd64.tar.gz
+    linux-amd64: sha256:881e93e785b6bb27dc34a25c1737a5f84697255f91187760960a879ced584443
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_linux-arm.tar.gz
+    linux-arm: sha256:ad33c736c0d2b8f4189b5f70debd93c70704249dd8cbff8ecc54f461718e7538
+    # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_linux-arm64.tar.gz
+    linux-arm64: sha256:c87bc71047df0d76fb68fd47384810b9b85b88891c4a92e822498c38649a62b7
