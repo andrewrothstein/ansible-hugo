@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.140.2
+hugo_ver: 0.141.0
 
 hugo_arch_map:
   armv6l: arm
@@ -769,3 +769,21 @@ hugo_checksums:
     linux-arm: sha256:ad33c736c0d2b8f4189b5f70debd93c70704249dd8cbff8ecc54f461718e7538
     # https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_linux-arm64.tar.gz
     linux-arm64: sha256:c87bc71047df0d76fb68fd47384810b9b85b88891c4a92e822498c38649a62b7
+  # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_checksums.txt
+  '0.141.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_windows-amd64.zip
+    windows-amd64: sha256:bb57cb0b92cc21d25fef1eafa83f197bcaecbb856c4997142596c8014734a6e7
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:3b618e156c947dc30cefd021b98d2e515743b14de54c06af139d0f54adbcc49f
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:64fe08b762de14334c5220c4680337da14103da8cd58c824381386c36e5856f1
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:f70eeabd4962988a72ab13e333bb23531cdccda4af3574762c14e2aae7cba9f8
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_darwin-universal.tar.gz
+    darwin-universal: sha256:fe3266beb9495b2f3e74c1ec5c792f60090dd1f30e2c44bb231441c6b66bb3e0
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_linux-amd64.tar.gz
+    linux-amd64: sha256:aba5615b03fb3f05582d0bd2787164b44723fd1a0901dac48d5e9524cff6e6b9
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_linux-arm.tar.gz
+    linux-arm: sha256:e7e6afed825dc8840d5ecff5f5a823fac391138b3588b81b1fe02ac578607f19
+    # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_linux-arm64.tar.gz
+    linux-arm64: sha256:0513e7017b8853a153e25c0812627961480e2f01d035cec4358aa592ec413d8c
