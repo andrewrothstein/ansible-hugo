@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.141.0
+hugo_ver: 0.142.0
 
 hugo_arch_map:
   armv6l: arm
@@ -787,3 +787,21 @@ hugo_checksums:
     linux-arm: sha256:e7e6afed825dc8840d5ecff5f5a823fac391138b3588b81b1fe02ac578607f19
     # https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_linux-arm64.tar.gz
     linux-arm64: sha256:0513e7017b8853a153e25c0812627961480e2f01d035cec4358aa592ec413d8c
+  # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_checksums.txt
+  '0.142.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_windows-amd64.zip
+    windows-amd64: sha256:b9cabce1d4bb6bfd7126c2f7e3efa0da3c687345264f8eedc382d8b9ad87f640
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:84eaf5a6c9083489696bed89db055aaa5013cd70acd250905e65077dc3f9ad98
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:329a085d0b3db912a71186d805724e7b8e333e92796e375ea64fe8db11a1b78a
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:59e0649f366ca6412a33835ed0070900af72fff6b58280ed5cb4014db6cced17
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_darwin-universal.tar.gz
+    darwin-universal: sha256:cc01100ff14225e95abe08faca09119a9c96b5c0e11635f4c20ead20c3e11b83
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_linux-amd64.tar.gz
+    linux-amd64: sha256:8c7d1c3da968c65c45a92286f07bc3f4200fbe726848a054d8ecec797d210198
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_linux-arm.tar.gz
+    linux-arm: sha256:76c83fffdc3f26bfbdefb40e775a2ba7620eb5ae1b2f22b64b1829ccad4ad5be
+    # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_linux-arm64.tar.gz
+    linux-arm64: sha256:a4ad0c6743d55fb58c8dbc41d02f758899791fc8851930092e771ddfce5df537
