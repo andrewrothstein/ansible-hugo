@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.142.0
+hugo_ver: 0.143.0
 
 hugo_arch_map:
   armv6l: arm
@@ -805,3 +805,21 @@ hugo_checksums:
     linux-arm: sha256:76c83fffdc3f26bfbdefb40e775a2ba7620eb5ae1b2f22b64b1829ccad4ad5be
     # https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_linux-arm64.tar.gz
     linux-arm64: sha256:a4ad0c6743d55fb58c8dbc41d02f758899791fc8851930092e771ddfce5df537
+  # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_checksums.txt
+  '0.143.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_windows-amd64.zip
+    windows-amd64: sha256:fb37be53c7eea4cb99f6086548ef93d97a19073cd7b6f8599cc9b282a9cde991
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:d8fbf1d2789dc56946504fd5e922fdebc79a9d89eb1f46cee871031243563ee8
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:d7912dd063e1407beed8d29bb3daa729da8244faa62afb710dc5bc7db527873c
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:da877672af9034d8fc69a55f29a11de60aab2327e1014b05c192f48ecc3369ff
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_darwin-universal.tar.gz
+    darwin-universal: sha256:8214ada2c7ea86e6bd04bf0d9f5f4576c6601745351b00d2e9bee9906c86e8cc
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_linux-amd64.tar.gz
+    linux-amd64: sha256:b8948388d739399c59ac71219c1b6099cb8c462d69619e7fd4947c88dce54738
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_linux-arm.tar.gz
+    linux-arm: sha256:9ad19cd30f5b0541bfeea25fec3fb1e28e99ee05d67767220c00a9cbea20d7e9
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_linux-arm64.tar.gz
+    linux-arm64: sha256:c514475bc822174269a482c35ff96888024e21ee6dc008979aa8396792859511
