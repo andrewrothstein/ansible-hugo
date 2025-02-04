@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.143.0
+hugo_ver: 0.143.1
 
 hugo_arch_map:
   armv6l: arm
@@ -823,3 +823,21 @@ hugo_checksums:
     linux-arm: sha256:9ad19cd30f5b0541bfeea25fec3fb1e28e99ee05d67767220c00a9cbea20d7e9
     # https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_linux-arm64.tar.gz
     linux-arm64: sha256:c514475bc822174269a482c35ff96888024e21ee6dc008979aa8396792859511
+  # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_checksums.txt
+  '0.143.1':
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_windows-amd64.zip
+    windows-amd64: sha256:816a3644c911ecba888215740b6e1f1ec3b18c42b0a3fff6b92ed255befcbf1d
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:50508eed13573e3a4f41aa091bdc259d2c492da8916d69cec117323b1f33fb4c
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:2539d0547361f9fbf5cf5c279d203e957e3baf5701fd7ca9bbc82e21f6ab6d12
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:34e3ebdfcfd38fc1be8918ca4d63d92c81d1f218553ac4e7582859d9d6d5562e
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_darwin-universal.tar.gz
+    darwin-universal: sha256:0442739eaceaeecf5cd13582a3f0beb5f2fd83057a7e813c3b9578f3df2a738f
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_linux-amd64.tar.gz
+    linux-amd64: sha256:77bd962ab1114c82de77d7d7c6f8cc7bd56fcce44d0ff7f5fb03016884c8e5cf
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_linux-arm.tar.gz
+    linux-arm: sha256:827e63133bbc7ffb4b754a7616330cf817c16e0dd3f400a91bf9ebcb8c2ae17f
+    # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_linux-arm64.tar.gz
+    linux-arm64: sha256:18fe18817621d114f9cc51f3b0a243bda8aae3da3ec7b108073a60fa814f0f16
