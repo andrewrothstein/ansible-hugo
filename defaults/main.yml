@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.143.1
+hugo_ver: 0.144.0
 
 hugo_arch_map:
   armv6l: arm
@@ -841,3 +841,21 @@ hugo_checksums:
     linux-arm: sha256:827e63133bbc7ffb4b754a7616330cf817c16e0dd3f400a91bf9ebcb8c2ae17f
     # https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_linux-arm64.tar.gz
     linux-arm64: sha256:18fe18817621d114f9cc51f3b0a243bda8aae3da3ec7b108073a60fa814f0f16
+  # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_checksums.txt
+  '0.144.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_windows-amd64.zip
+    windows-amd64: sha256:b0839adf55c136dd54498401adc8f947e94d21c60afc95b36ae9838e39a8fcb8
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:b48dcd290e41ecb2628e663c9e4e0c5f305fbcfdf6a36e26c31fa547afd956c6
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:d7cebe1b70bbe28e452bd9b35a40b9bb2bbcdd043f6ffce61e27633de0eb9f7b
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:2784cfbdb12f604162bb3e7c0f41f4fc91e1e68d783445b9078d7e775bf0667e
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_darwin-universal.tar.gz
+    darwin-universal: sha256:a0ef7a0ec5b4dc5948c0620d4a7b1ed91a6107ebf3ee520f97544c52c91abeb2
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_linux-amd64.tar.gz
+    linux-amd64: sha256:1efb6258e3ef813acea4bcc92fc85c19a324256a64b3c27d2206502ff4f42e72
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_linux-arm.tar.gz
+    linux-arm: sha256:3d8fb8190de5bbc4bcea4967a5fefd2afc6ecd599f1ad21c1924c12030654691
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_linux-arm64.tar.gz
+    linux-arm64: sha256:4bca2874235b81a7fbe14875e92cb9224cf81704aa70c16d933f2c1c92cbc1da
