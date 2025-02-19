@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.144.0
+hugo_ver: 0.144.2
 
 hugo_arch_map:
   armv6l: arm
@@ -859,3 +859,21 @@ hugo_checksums:
     linux-arm: sha256:3d8fb8190de5bbc4bcea4967a5fefd2afc6ecd599f1ad21c1924c12030654691
     # https://github.com/gohugoio/hugo/releases/download/v0.144.0/hugo_0.144.0_linux-arm64.tar.gz
     linux-arm64: sha256:4bca2874235b81a7fbe14875e92cb9224cf81704aa70c16d933f2c1c92cbc1da
+  # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_checksums.txt
+  '0.144.2':
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_windows-amd64.zip
+    windows-amd64: sha256:18f3bc720cf017f9f1e48b91df4dd1d6fc2cf84fa02c52ddd65aed9fc77ffbef
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:a6acb2db6f02208fd944af83f4876b4b179ce42b94796e5c7463bcac82e1bfa7
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:73faccaf3d5494256f1fad2ea472d660baf06857158a055dc3542b794185d6d4
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:71589ccd7cf63dd741a2ba9ede5789234da9fa99291255f30f002654bb86c3ac
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_darwin-universal.tar.gz
+    darwin-universal: sha256:8e9baa223c7d4d330a689b5150e71ec4b96d82de4ce84f1ef8f374a399909beb
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_linux-amd64.tar.gz
+    linux-amd64: sha256:58b5525d528c3b4f815532dd81245aa80c2cea4349180323938054ae8f1a10da
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_linux-arm.tar.gz
+    linux-arm: sha256:80230e7aba696429e8bac241eb709397664733b53ab1e19448e0b56f81676e12
+    # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_linux-arm64.tar.gz
+    linux-arm64: sha256:cf93a58638aff15162d10010f705c03dbe8975bbbd054be8048ea1c67aa8cb68
