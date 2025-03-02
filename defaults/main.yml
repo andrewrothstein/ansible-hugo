@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.144.2
+hugo_ver: 0.145.0
 
 hugo_arch_map:
   armv6l: arm
@@ -877,3 +877,21 @@ hugo_checksums:
     linux-arm: sha256:80230e7aba696429e8bac241eb709397664733b53ab1e19448e0b56f81676e12
     # https://github.com/gohugoio/hugo/releases/download/v0.144.2/hugo_0.144.2_linux-arm64.tar.gz
     linux-arm64: sha256:cf93a58638aff15162d10010f705c03dbe8975bbbd054be8048ea1c67aa8cb68
+  # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_checksums.txt
+  '0.145.0':
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_windows-amd64.zip
+    windows-amd64: sha256:8df1aefb7bfc7ebfa68113ca77549c6ebb730e83139ad6594c9f751e0a1512f9
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:137746d305f4787bb3c5f79c93bc6b130c62d05ab82438f1e33bf5181fbaade0
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:ea8a9621563964d734b806e4deebdac29bd377282f604d4e9a3b4eed1260f2fc
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:3eb808acc875bef873ca4b2fbc5ee4016a712ada1e6ec9fd5564339db1e84c7c
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_darwin-universal.tar.gz
+    darwin-universal: sha256:0889b22db96375b354a0cacc90eaa983110003b7cb0adffcf965a75b5fe555ef
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-amd64.tar.gz
+    linux-amd64: sha256:5be7b7d5026d01515685a8aad1ca015133c0569688819f139ae9fb21e33fd9aa
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-arm.tar.gz
+    linux-arm: sha256:538a51803b263acc92d4fe1b3c50b5c3e05ab99d1201ba299d95c8fbd1e6a87f
+    # https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_linux-arm64.tar.gz
+    linux-arm64: sha256:545c473040ffbd7315e1e34a65e7713d8e225897769b3728b1a43e1b9f0c993a
