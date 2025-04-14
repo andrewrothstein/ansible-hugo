@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.146.3
+hugo_ver: 0.146.4
 
 hugo_arch_map:
   armv6l: arm
@@ -913,3 +913,21 @@ hugo_checksums:
     linux-arm: sha256:371f60194545b5019bfa79562f00e2a3f729904123a2bc9a01dda24ea5052dff
     # https://github.com/gohugoio/hugo/releases/download/v0.146.3/hugo_0.146.3_linux-arm64.tar.gz
     linux-arm64: sha256:0e769dc96ed2c4e8df9f58f6f4ea3394ae44e91591b04bcfc3089c0ec457232a
+  # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_checksums.txt
+  '0.146.4':
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_windows-amd64.zip
+    windows-amd64: sha256:81b94b4c247f37c3ef828fcffe6860bedb4416019e29616dbf461a7a4be5eec2
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:b53f5dd9a410ae5b7218a856d8915649390fc223ce4da3c3fbff8319d0ab9b02
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:a304911199de4bc1f619f64c8d7e8e8fbee15fae187d01a0116cdcb5bc741188
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:0c8291dbdeb63bba57c033c8a96af5d73ebe0229d5265410c2b9e32d178d735a
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_darwin-universal.tar.gz
+    darwin-universal: sha256:ee0c0bf1a98e1c15070e766a1ff884f4d092dc1deff14bf9318b468c74d016d8
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_linux-amd64.tar.gz
+    linux-amd64: sha256:4f7df6c3e911fd45fefadaee668836797dc07dd3d11d5316391c44509f515d29
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_linux-arm.tar.gz
+    linux-arm: sha256:3f883758050e71ce8e02dddb582ce5773e21411a1ed7db36fe20d674b058be1b
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_linux-arm64.tar.gz
+    linux-arm64: sha256:bd9803618ad85a84b7536ac8f319005f5a3454d432802d4e9ea7871cfa45060c
