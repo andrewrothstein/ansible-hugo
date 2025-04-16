@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.146.4
+hugo_ver: 0.146.5
 
 hugo_arch_map:
   armv6l: arm
@@ -931,3 +931,21 @@ hugo_checksums:
     linux-arm: sha256:3f883758050e71ce8e02dddb582ce5773e21411a1ed7db36fe20d674b058be1b
     # https://github.com/gohugoio/hugo/releases/download/v0.146.4/hugo_0.146.4_linux-arm64.tar.gz
     linux-arm64: sha256:bd9803618ad85a84b7536ac8f319005f5a3454d432802d4e9ea7871cfa45060c
+  # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_checksums.txt
+  '0.146.5':
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_windows-amd64.zip
+    windows-amd64: sha256:4a3658ec20246c32c96d6dc4f578421901c81a9b546c0d1f3ca79c1fbbee0508
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:78460b88aa9a7eb0de06d87c9c51300595a16b9f16e08564691fc837f547ced4
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:8a6fe417447b1bfca783d69f9906855695ac79e5beb10e5351e8ec441eacd0f1
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:cc1f07f23a4685a2db4012c14bea509bbedf5369f97d5bd7e3a3b3d5140d78a3
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_darwin-universal.tar.gz
+    darwin-universal: sha256:76625e79743e2c35b91ef8aacd02c54c076020b34e41d3c049b87027bf1e9e7a
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_linux-amd64.tar.gz
+    linux-amd64: sha256:d45e0993ae34d28f505cba3ed40db68a3bf0e05301bdec0fa278f56320ef7115
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_linux-arm.tar.gz
+    linux-arm: sha256:8ba2e4380399f70d4458f0ee3539ad3a835e0525aaa06cad007bc02a85af0867
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_linux-arm64.tar.gz
+    linux-arm64: sha256:348c42e0325c7c3a5d78b844243393c169608fff8dab91eb7e52f0e767956ee9
