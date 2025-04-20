@@ -1,6 +1,6 @@
 ---
 # defaults file for hugo
-hugo_ver: 0.146.5
+hugo_ver: 0.146.6
 
 hugo_arch_map:
   armv6l: arm
@@ -949,3 +949,21 @@ hugo_checksums:
     linux-arm: sha256:8ba2e4380399f70d4458f0ee3539ad3a835e0525aaa06cad007bc02a85af0867
     # https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_0.146.5_linux-arm64.tar.gz
     linux-arm64: sha256:348c42e0325c7c3a5d78b844243393c169608fff8dab91eb7e52f0e767956ee9
+  # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_checksums.txt
+  '0.146.6':
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_windows-amd64.zip
+    windows-amd64: sha256:f112667e1897bcc3649b6de9c2aaca0f85165a970a182dd9cd725b9ddbc24494
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_freebsd-amd64.tar.gz
+    freebsd-amd64: sha256:853cbe3266769df0fde7b4956184288af4da372761ef1240a6c86b3d2e0e08b7
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_openbsd-amd64.tar.gz
+    openbsd-amd64: sha256:e9d618fd746b30354fdea34cbf96870dae8620c9a9cf51a204656ef7942584c6
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_netbsd-amd64.tar.gz
+    netbsd-amd64: sha256:9aa0c3ed294191dbc5c6b4dcdd626f2752aa352b6ef4c0ce1094378765a41e6a
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_darwin-universal.tar.gz
+    darwin-universal: sha256:33128ec8ec50cf9bdc6a6c62be729a0cef199bc5fc9bcdb294ed0b3c6dc629f5
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_linux-amd64.tar.gz
+    linux-amd64: sha256:16d724d9ab598fc51e50a788f668b36006860c0bd4b2cdc1f0692b20b189c312
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_linux-arm.tar.gz
+    linux-arm: sha256:90266d4cbfdb8b08db4982a453918ebf835e2dd98048c5ba662d5b6e6cf57190
+    # https://github.com/gohugoio/hugo/releases/download/v0.146.6/hugo_0.146.6_linux-arm64.tar.gz
+    linux-arm64: sha256:fcbd675202b8cf435c5e3b09e4a96c683b4f1a6ed6c360cce1dad160ee9c1613
